@@ -18,13 +18,16 @@ const PhotoTextStyle = styled.div`
     .global{
         display:flex;
     }
+
     
     
     @media only screen and (min-width:415px) and (max-width:768px){
         
     }
-    @media only screen and (min-width:769px) and (max-width:1024px){
-
+    @media only screen and (min-width:769px) {
+        h1{
+            margin-bottom:2.5%;
+        }
         .colum1, .colum2{
             width:46%
         }
@@ -43,12 +46,6 @@ const PhotoTextStyle = styled.div`
 
             justify-content: center;
         }
-
-    }
-    @media only screen and (min-width:1025px) and (max-width:1440px){
-
-    }
-    @media only screen and (min-width:1441px){
 
     }
 

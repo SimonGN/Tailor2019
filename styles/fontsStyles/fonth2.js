@@ -2,28 +2,23 @@ import styled from 'styled-components';
 
 
 const FontH2 = styled.h2`
-    font-family: "Arial";
-    color: ${props => (props.color === 'white' ? 'white' : '#4A4A4A')};
-    font-size: ${props => (props.size ? props.size : '32px')};
-    letter-spacing: 0.08rem;
-    text-align: ${props => (props.align === 'center' ? 'center' : 'left')};
-    cursor: pointer;
-    text-decoration: none;
+    font-family: Grabenbach-medium,Helvetica,Arial;
+    font-weight: 400;
+    font-size: ${props => (props.size ? props.size : '10px')};
+    letter-spacing: 2.5px;
+    line-height: 1.35;
+    color: ${props => (props.color ? props.color : '#0F1C51')};;
+    text-align: ${props => (props.align ? props.align : 'left')};;
+    margin: 0;
 
-    &:visited {
-        color: ${props => (props.color === 'white' ? 'white' : 'black')};
-    }
     @media only screen and (min-width:415px) and (max-width:768px){
     }
 
-    @media only screen and (min-width:769px) and (max-width:1024px){
+    @media only screen and (min-width:769px){
+        font-size: ${props => (props.size ? props.size : '15px')};
     }
 
-    @media only screen and (min-width:1025px) and (max-width:1440px){
-    }
 
-    @media only screen and (min-width:1025px) and (max-width:1440px){
-    }
 
 `;
 

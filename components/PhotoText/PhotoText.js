@@ -3,6 +3,8 @@ import Link from "next/link";
 
 import { PhotoTextStyle } from "./PhotoTextStyle";
 import FontP from "../../styles/fontsStyles/fontP";
+import Fonth1 from "../../styles/fontsStyles/Fonth1"
+import Fonth2 from "../../styles/fontsStyles/Fonth2"
 
 import home from "../../content/home.json"
 
@@ -17,12 +19,12 @@ const displayHome = () => {
                         <img src={img} />
                     </div>
                     <div className="title">
-                        <FontP color={"#b5fcbe"} size="12px"> {title}</FontP>
+                        <Fonth2> {title}</Fonth2>
                     </div>
                     <div className="colum1">
                         <div className="text">
-                            <FontP color={"#b5fcbe"} size="12px"> {text1}</FontP>
-                            <FontP color={"#b5fcbe"} size="12px"> {text2}</FontP>
+                            <Fonth1> {text1}</Fonth1>
+                            <FontP> {text2}</FontP>
                         </div>
                     </div>
                 </div>

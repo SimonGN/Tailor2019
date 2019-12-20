@@ -42,7 +42,7 @@ const Meta = () => {
             font-style: normal;
         }
         @font-face {
-            font-family: "Grabenbach";
+            font-family: "Grabenbach-medium";
             src: url(/static/fonts/Grabenbach.ttf) format("truetype");
             font-weight: normal;
             font-style: normal;
