@@ -28,7 +28,6 @@ const displayHome = () => {
                     <div className="colum1" >
                         <img src={img3} />
                     </div>
-
                 </div>
             )
         })

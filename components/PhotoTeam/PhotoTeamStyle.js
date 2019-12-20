@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 
-const PhotoTextStyle = styled.div`
+const  PhotoTeamStyle= styled.div`
+background-color:#DAE1FF;
     img{
         width:100%;
         object-fit:cover;
@@ -35,7 +36,7 @@ const PhotoTextStyle = styled.div`
             width:46%
         }
         img{
-            height:90vh;
+            height:auto;
         }
         .title{
             width:8%;
@@ -45,13 +46,18 @@ const PhotoTextStyle = styled.div`
         }
         .text{
             width: 80%;
-            height: 90vh;
-
-            justify-content: center;
+            height: auto;
+            position: -webkit-sticky;
+        }
+        .sticky{
+            top:15%;
+            bottom: 0%;
+            position: -webkit-sticky;
+            position:sticky;
         }
 
     }
 
 `;
 
-export { PhotoTextStyle };
+export { PhotoTeamStyle };

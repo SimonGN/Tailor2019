@@ -16,8 +16,10 @@
         "img3":"static/img/imgValuesTailor.jpg",
         "title4":"QUIÉNES SOMOS",
         "text5":"Provenimos de carreras de lo más dispares, pero nuestras ganas de acercar el código nos hizo unirnos. Hoy, esos diversos orígenes y talentos nos permiten solucionar infinitos retos digitales.",
-        "text6":"Nos apasiona la tecnología. No solo creemos que la tecnología es nuestra forma de ayudarte a tener un impacto real, sino también nuestro camino para dejar nuestra huella en el mundo."
+        "text6":"Nos apasiona la tecnología. No solo creemos que la tecnología es nuestra forma de ayudarte a tener un impacto real, sino también nuestro camino para dejar nuestra huella en el mundo.",
         
+        "img4":"static/img/teamImg.jpg",
+        "title5":"EQUIPO"
 
     }
 ]
