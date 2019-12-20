@@ -1,20 +1,17 @@
 import Meta from "../components/Meta";
 
 
-import { PageStyle } from "../styles/pagesStyles/PageStyle"
-import ProjectAll from "../components/Project/ProjectAll"
-import Text from "../components/Text/Text"
-
+import PhotoText from "../components/PhotoText/PhotoText"
 
 function Home() {
   return (
   
-  <PageStyle>
-    <Meta/>
-    <Text/>
-    <ProjectAll />
+    <React.Fragment>
+      <Meta/>
+      <PhotoText />
+      Hola
 
-  </PageStyle>
+      </React.Fragment>
 
   );
 }
