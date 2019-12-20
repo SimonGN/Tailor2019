@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import Link from "next/link";
 
 import { ButtonStyle } from "./ButtonStyle";
-import FontP from "../../styles/fontsStyles/fontP";
+import FontButton from "../../styles/fontsStyles/fontButton";
 
 const Button = props => {
 
 
     return (
         <ButtonStyle >
-            <FontP color={"#b5fcbe"} size="12px"> {props.content}</FontP>   
+            <FontButton color={props.color} size={props.size}> {props.content}</FontButton>   
         </ButtonStyle>
     );
 };

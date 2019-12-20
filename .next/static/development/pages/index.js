@@ -1,5 +1,238 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
+/***/ "./components/Button/Button.js":
+/*!*************************************!*\
+  !*** ./components/Button/Button.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _ButtonStyle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ButtonStyle */ "./components/Button/ButtonStyle.js");
+/* harmony import */ var _styles_fontsStyles_fontButton__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../styles/fontsStyles/fontButton */ "./styles/fontsStyles/fontButton.js");
+var _jsxFileName = "/Users/simongnegrete/Desktop/Tailor/Tailor2019/components/Button/Button.js";
+
+
+
+
+
+var Button = function Button(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ButtonStyle__WEBPACK_IMPORTED_MODULE_2__["ButtonStyle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_fontButton__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    color: props.color,
+    size: props.size,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, " ", props.content));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Button);
+
+/***/ }),
+
+/***/ "./components/Button/ButtonStyle.js":
+/*!******************************************!*\
+  !*** ./components/Button/ButtonStyle.js ***!
+  \******************************************/
+/*! exports provided: ButtonStyle */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ButtonStyle", function() { return ButtonStyle; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+
+function _templateObject() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    padding:14px 25px;\n    display: flex;    \n    \n    border-radius: 25px;\n    border: 1px solid #0F1C51;\n    display:flex;\n    justify-content: center;\n    cursor:pointer;\n    width: 40%;\n\n\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+var ButtonStyle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject());
+
+
+/***/ }),
+
+/***/ "./components/IpadText/IpadText.js":
+/*!*****************************************!*\
+  !*** ./components/IpadText/IpadText.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _IpadTextStyle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./IpadTextStyle */ "./components/IpadText/IpadTextStyle.js");
+/* harmony import */ var _Button_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Button/Button */ "./components/Button/Button.js");
+/* harmony import */ var _styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../styles/fontsStyles/fontP */ "./styles/fontsStyles/fontP.js");
+/* harmony import */ var _styles_fontsStyles_Fonth1__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../styles/fontsStyles/Fonth1 */ "./styles/fontsStyles/Fonth1.js");
+/* harmony import */ var _styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../styles/fontsStyles/Fonth2 */ "./styles/fontsStyles/Fonth2.js");
+/* harmony import */ var _content_home_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../content/home.json */ "./content/home.json");
+var _content_home_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../content/home.json */ "./content/home.json", 1);
+var _jsxFileName = "/Users/simongnegrete/Desktop/Tailor/Tailor2019/components/IpadText/IpadText.js";
+
+
+
+
+
+
+
+
+
+var displayHome = function displayHome() {
+  return _content_home_json__WEBPACK_IMPORTED_MODULE_7__.map(function (member, i) {
+    var img2 = member.img2,
+        title2 = member.title2,
+        text3 = member.text3,
+        text4 = member.text4,
+        button = member.button;
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "global",
+      key: i,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "colum1",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: img2,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22
+      },
+      __self: this
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "title",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25
+      },
+      __self: this
+    }, " ", title2)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "colum1",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "text",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "paragraph",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_Fonth1__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30
+      },
+      __self: this
+    }, " ", text3), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31
+      },
+      __self: this
+    }, " ", text4)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      content: button,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33
+      },
+      __self: this
+    }))));
+  });
+};
+
+var IpadText = function IpadText(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_IpadTextStyle__WEBPACK_IMPORTED_MODULE_2__["IpadTextStyle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, displayHome());
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (IpadText);
+
+/***/ }),
+
+/***/ "./components/IpadText/IpadTextStyle.js":
+/*!**********************************************!*\
+  !*** ./components/IpadText/IpadTextStyle.js ***!
+  \**********************************************/
+/*! exports provided: IpadTextStyle */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IpadTextStyle", function() { return IpadTextStyle; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+
+function _templateObject() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    img{\n        width:100%;\n        object-fit:cover;\n    }\n    .text{\n        display: flex;\n        flex-direction: column;\n    }\n    .title{\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        white-space: nowrap;\n        writing-mode: vertical-lr;\n        transform: rotate(180deg);\n    }\n    .global{\n        display:flex;\n    }\n\n    \n    \n    @media only screen and (min-width:415px) and (max-width:768px){\n        \n    }\n    @media only screen and (min-width:769px) {\n        h1{\n            margin-bottom:2.5%;\n        }\n        .colum1, .colum2{\n            width:46%\n        }\n        .colum1{\n            position:relative;\n        }\n        img{\n            position:absolute;\n            height: 90vh;\n            width: auto;\n            top: 16%;\n            right: -6%;\n        }\n        .title{\n            width:8%;\n            white-space: nowrap;\n            writing-mode: vertical-lr;\n            transform: rotate(180deg);\n        }\n        .text{\n            width: 80%;\n            height: 100vh;\n            justify-content: center;\n        }\n        .paragraph{\n            margin-bottom:5%;\n        }\n\n    }\n\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+var IpadTextStyle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject());
+
+
+/***/ }),
+
 /***/ "./components/Meta.js":
 /*!****************************!*\
   !*** ./components/Meta.js ***!
@@ -221,14 +454,12 @@ var Meta = function Meta() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _PhotoTextStyle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./PhotoTextStyle */ "./components/PhotoText/PhotoTextStyle.js");
-/* harmony import */ var _styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../styles/fontsStyles/fontP */ "./styles/fontsStyles/fontP.js");
-/* harmony import */ var _styles_fontsStyles_Fonth1__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../styles/fontsStyles/Fonth1 */ "./styles/fontsStyles/Fonth1.js");
-/* harmony import */ var _styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../styles/fontsStyles/Fonth2 */ "./styles/fontsStyles/Fonth2.js");
-/* harmony import */ var _content_home_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../content/home.json */ "./content/home.json");
-var _content_home_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../content/home.json */ "./content/home.json", 1);
+/* harmony import */ var _PhotoTextStyle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PhotoTextStyle */ "./components/PhotoText/PhotoTextStyle.js");
+/* harmony import */ var _styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../styles/fontsStyles/fontP */ "./styles/fontsStyles/fontP.js");
+/* harmony import */ var _styles_fontsStyles_Fonth1__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../styles/fontsStyles/Fonth1 */ "./styles/fontsStyles/Fonth1.js");
+/* harmony import */ var _styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../styles/fontsStyles/Fonth2 */ "./styles/fontsStyles/Fonth2.js");
+/* harmony import */ var _content_home_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../content/home.json */ "./content/home.json");
+var _content_home_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../content/home.json */ "./content/home.json", 1);
 var _jsxFileName = "/Users/simongnegrete/Desktop/Tailor/Tailor2019/components/PhotoText/PhotoText.js";
 
 
@@ -237,9 +468,8 @@ var _jsxFileName = "/Users/simongnegrete/Desktop/Tailor/Tailor2019/components/Ph
 
 
 
-
 var displayHome = function displayHome() {
-  return _content_home_json__WEBPACK_IMPORTED_MODULE_6__.map(function (member, i) {
+  return _content_home_json__WEBPACK_IMPORTED_MODULE_5__.map(function (member, i) {
     var img = member.img,
         title = member.title,
         text1 = member.text1,
@@ -249,60 +479,60 @@ var displayHome = function displayHome() {
       key: i,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 16
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "colum1",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 17
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       src: img,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19
+        lineNumber: 18
       },
       __self: this
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "title",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21
+        lineNumber: 20
       },
       __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_4__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22
+        lineNumber: 21
       },
       __self: this
     }, " ", title)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "colum1",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24
+        lineNumber: 23
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "text",
       __source: {
         fileName: _jsxFileName,
+        lineNumber: 24
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_Fonth1__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      __source: {
+        fileName: _jsxFileName,
         lineNumber: 25
       },
       __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_Fonth1__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    }, " ", text1), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_2__["default"], {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 26
-      },
-      __self: this
-    }, " ", text1), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 27
       },
       __self: this
     }, " ", text2))));
@@ -310,10 +540,10 @@ var displayHome = function displayHome() {
 };
 
 var PhotoText = function PhotoText(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PhotoTextStyle__WEBPACK_IMPORTED_MODULE_2__["PhotoTextStyle"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PhotoTextStyle__WEBPACK_IMPORTED_MODULE_1__["PhotoTextStyle"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 40
     },
     __self: this
   }, displayHome());
@@ -338,7 +568,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    img{\n        width:100%;\n        object-fit:cover;\n    }\n    .text{\n        display: flex;\n        flex-direction: column;\n    }\n    .title{\n        display: flex;\n        align-items: center;\n        justify-content: center;\n    }\n    .global{\n        display:flex;\n    }\n\n    \n    \n    @media only screen and (min-width:415px) and (max-width:768px){\n        \n    }\n    @media only screen and (min-width:769px) {\n        h1{\n            margin-bottom:2.5%;\n        }\n        .colum1, .colum2{\n            width:46%\n        }\n        img{\n            height:90vh;\n        }\n        .title{\n            width:8%;\n            white-space: nowrap;\n            writing-mode: vertical-lr;\n            transform: rotate(180deg);\n        }\n        .text{\n            width: 80%;\n            height: 90vh;\n\n            justify-content: center;\n        }\n\n    }\n\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    img{\n        width:100%;\n        object-fit:cover;\n    }\n    .text{\n        display: flex;\n        flex-direction: column;\n    }\n    .title{\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        white-space: nowrap;\n        writing-mode: vertical-lr;\n        transform: rotate(180deg);\n    }\n    .global{\n        display:flex;\n    }\n\n    \n    \n    @media only screen and (min-width:415px) and (max-width:768px){\n        \n    }\n    @media only screen and (min-width:769px) {\n        h1{\n            margin-bottom:2.5%;\n        }\n        .colum1, .colum2{\n            width:46%\n        }\n        img{\n            height:90vh;\n        }\n        .title{\n            width:8%;\n            white-space: nowrap;\n            writing-mode: vertical-lr;\n            transform: rotate(180deg);\n        }\n        .text{\n            width: 80%;\n            height: 90vh;\n\n            justify-content: center;\n        }\n\n    }\n\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -353,6 +583,288 @@ var PhotoTextStyle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].d
 
 /***/ }),
 
+/***/ "./components/Services/Services.js":
+/*!*****************************************!*\
+  !*** ./components/Services/Services.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _ServicesStyle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ServicesStyle */ "./components/Services/ServicesStyle.js");
+/* harmony import */ var _styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../styles/fontsStyles/Fonth2 */ "./styles/fontsStyles/Fonth2.js");
+/* harmony import */ var _content_home_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../content/home.json */ "./content/home.json");
+var _content_home_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../content/home.json */ "./content/home.json", 1);
+var _jsxFileName = "/Users/simongnegrete/Desktop/Tailor/Tailor2019/components/Services/Services.js";
+
+
+
+
+
+var displayService = function displayService() {
+  return _content_home_json__WEBPACK_IMPORTED_MODULE_3__.map(function (member, i) {
+    var title3 = member.title3;
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "global",
+      key: i,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14
+      },
+      __self: this
+    }, " ", title3));
+  });
+};
+
+var Services = function Services(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ServicesStyle__WEBPACK_IMPORTED_MODULE_1__["ServicesStyle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "global",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, displayService()), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "scroll1",
+    src: "/static/svg/services/scroll1.svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "scroll2",
+    src: "/static/svg/services/scroll2.svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "scroll3",
+    src: "/static/svg/services/scroll3.svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "scroll4",
+    src: "/static/svg/services/scroll4.svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Services);
+
+/***/ }),
+
+/***/ "./components/Services/ServicesStyle.js":
+/*!**********************************************!*\
+  !*** ./components/Services/ServicesStyle.js ***!
+  \**********************************************/
+/*! exports provided: ServicesStyle */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ServicesStyle", function() { return ServicesStyle; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+
+function _templateObject() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    display: flex;\n    align-items: center;\n    /* width:100vw; */\n    height: 100vh;\n    @-webkit-keyframes drift{\n    0% {\n        -webkit-transform:translateX(0);\n        transform:translateX(0);\n    }\n    to{\n        -webkit-transform:translateX(-100%);\n        transform:translateX(-100%);\n    }\n    }\n    @keyframes drift{\n    0%\n    {\n        -webkit-transform:translateX(0);\n        transform:translateX(0);\n    }\n    to{\n        -webkit-transform:translateX(-100%);\n        transform:translateX(-100%);\n    }\n    }\n    .svg {\n        width:1800vw;\n        -webkit-animation:drift 200s linear infinite alternate;\n        animation:drift 200s linear infinite alternate;\n    }\n    h2{\n        width: 100vw;\n        display: flex;\n        align-items: center;\n    }\n\n    .global{\n        /* width: 100vw; */\n        height: 100vh;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n    }\n\n    .title{\n        writing-mode: vertical-rl;\n        transform: rotate(180deg);\n        z-index: 1;\n    }\n\n    @media only screen and (min-width:415px) and (max-width:768px){\n        /* display: flex;\n        align-items: center;\n        .title{\n            writing-mode: vertical-rl;\n            transform: rotate(180deg);\n            position:absolute;\n        }\n        .svg {\n            width:3000vw;\n        } */\n    }\n    @media only screen and (min-width:769px) and (max-width:1024px){\n        /* display: flex;\n        align-items: center;\n        padding:0;\n        .global{\n            padding-bottom:130px;\n        }\n        .title{\n            writing-mode: vertical-rl;\n            transform: rotate(180deg);\n            margin-bottom:8%;\n            position:absolute;\n            left: 4.5%;\n            top: 15%;\n            z-index: 1;\n        }\n        .svg {\n            width:1000vw;\n            img{\n                width:200%; \n            }\n        } */\n    }\n    @media only screen and (max-height: 768px) and (max-width: 1024px) and (orientation:landscape){\n        /* padding:0;\n        .global{\n            padding-bottom:130px;\n        }\n        .title{\n            left: 4.5%;\n            top: 15%;\n        }\n        .svg {\n            width:1000vw;\n            img{\n                width:200%; \n            }\n        } */\n    }\n\n    @media only screen and (min-width:1025px) and (max-width:1440px){      \n        /* display: flex;\n        align-items: center;\n        padding-top:18%;\n        padding:0;\n        .global{\n            padding-bottom:130px;\n        }\n        .title{\n            left: 4.5%;\n            top: 19%;\n        }\n        .svg {\n            width:1000vw;\n            img{\n                width:155%; \n            }\n        }\n        .scroll1,.scroll3,.scroll2, .scroll4{\n            display:block;\n            margin-bottom: 0.1%;\n        } */\n    }\n    @media only screen and (min-width:1441px){\n        /* display: flex;\n        align-items: center;\n        padding:0;\n        .global{\n            padding-bottom:130px;\n        }\n        .title{\n            left: 6.1%;\n            top: 20%;\n        }\n        .svg {\n            width:750vw;\n            img{\n                width:200%; \n            }\n        }\n        .scroll1,.scroll3,.scroll2, .scroll4{\n            display:block;\n            margin-bottom: 0.1%;\n        } */\n\n    }\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+var ServicesStyle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject());
+
+
+/***/ }),
+
+/***/ "./components/TextPhoto/TextPhoto.js":
+/*!*******************************************!*\
+  !*** ./components/TextPhoto/TextPhoto.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _TextPhotoStyle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./TextPhotoStyle */ "./components/TextPhoto/TextPhotoStyle.js");
+/* harmony import */ var _styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../styles/fontsStyles/fontP */ "./styles/fontsStyles/fontP.js");
+/* harmony import */ var _styles_fontsStyles_Fonth1__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../styles/fontsStyles/Fonth1 */ "./styles/fontsStyles/Fonth1.js");
+/* harmony import */ var _styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../styles/fontsStyles/Fonth2 */ "./styles/fontsStyles/Fonth2.js");
+/* harmony import */ var _content_home_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../content/home.json */ "./content/home.json");
+var _content_home_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../content/home.json */ "./content/home.json", 1);
+var _jsxFileName = "/Users/simongnegrete/Desktop/Tailor/Tailor2019/components/TextPhoto/TextPhoto.js";
+
+
+
+
+
+
+
+
+var displayHome = function displayHome() {
+  return _content_home_json__WEBPACK_IMPORTED_MODULE_6__.map(function (member, i) {
+    var img3 = member.img3,
+        title4 = member.title4,
+        text5 = member.text5,
+        text6 = member.text6;
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "global",
+      key: i,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "colum1",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "text",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_Fonth1__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }, " ", text5), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21
+      },
+      __self: this
+    }, " ", text6))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "title",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26
+      },
+      __self: this
+    }, " ", title4)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "colum1",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: img3,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29
+      },
+      __self: this
+    })));
+  });
+};
+
+var TextPhoto = function TextPhoto(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TextPhotoStyle__WEBPACK_IMPORTED_MODULE_2__["TextPhotoStyle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, displayHome());
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (TextPhoto);
+
+/***/ }),
+
+/***/ "./components/TextPhoto/TextPhotoStyle.js":
+/*!************************************************!*\
+  !*** ./components/TextPhoto/TextPhotoStyle.js ***!
+  \************************************************/
+/*! exports provided: TextPhotoStyle */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TextPhotoStyle", function() { return TextPhotoStyle; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+
+function _templateObject() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    background-color:#DAE1FF;\n    img{\n        width:100%;\n        object-fit:cover;\n    }\n    .text{\n        display: flex;\n        flex-direction: column;\n    }\n    .title{\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        white-space: nowrap;\n        writing-mode: vertical-lr;\n        transform: rotate(180deg);\n    }\n    .global{\n        display:flex;\n    }\n\n    \n    \n    @media only screen and (min-width:415px) and (max-width:768px){\n        \n    }\n    @media only screen and (min-width:769px) {\n        h1{\n            margin-bottom:2.5%;\n        }\n        .colum1, .colum2{\n            width:46%\n        }\n        img{\n            height:100vh;\n        }\n        .title{\n            width:8%;\n            white-space: nowrap;\n            writing-mode: vertical-lr;\n            transform: rotate(180deg);\n        }\n        .text{\n            float: right;\n            width: 80%;\n            height: 95vh;\n            justify-content: center;\n        }\n\n    }\n\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+var TextPhotoStyle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject());
+
+
+/***/ }),
+
 /***/ "./content/home.json":
 /*!***************************!*\
   !*** ./content/home.json ***!
@@ -360,7 +872,7 @@ var PhotoTextStyle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].d
 /*! exports provided: 0, default */
 /***/ (function(module) {
 
-module.exports = [{"img":"static/img/simon-gonzalez-negrete-nunc.jpg","title":"QUÉ ES TAILOR","text1":"Tailor es una boutique digital cuyo objetivo es dar forma a productos o idéas.","text2":"Creamos productos y soluciones digitales para PYMES, startups y grandes empresas.","title2":"CÓMO TRABAJAMOS","text3":"Siempre entregamos más de lo que esperas. Y lo hacemos de forma transparente.","text4":"Con un solo clic, podrás seguir el progreso de tu proyecto de forma sencilla e intuitiva.","button":"IR A ESPACIO","img2":"static/img/ipad.png"}];
+module.exports = [{"img":"static/img/simon-gonzalez-negrete-nunc.jpg","title":"QUÉ ES TAILOR","text1":"Tailor es una boutique digital cuyo objetivo es dar forma a productos o idéas.","text2":"Creamos productos y soluciones digitales para PYMES, startups y grandes empresas.","img2":"static/img/ipad.png","title2":"CÓMO TRABAJAMOS","text3":"Siempre entregamos más de lo que esperas. Y lo hacemos de forma transparente.","text4":"Con un solo clic, podrás seguir el progreso de tu proyecto de forma sencilla e intuitiva.","button":"IR A ESPACIO","title3":"SERVICIOS","img3":"static/img/imgValuesTailor.jpg","title4":"QUIÉNES SOMOS","text5":"Provenimos de carreras de lo más dispares, pero nuestras ganas de acercar el código nos hizo unirnos. Hoy, esos diversos orígenes y talentos nos permiten solucionar infinitos retos digitales.","text6":"Nos apasiona la tecnología. No solo creemos que la tecnología es nuestra forma de ayudarte a tener un impacto real, sino también nuestro camino para dejar nuestra huella en el mundo."}];
 
 /***/ }),
 
@@ -15025,7 +15537,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Meta__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Meta */ "./components/Meta.js");
 /* harmony import */ var _components_PhotoText_PhotoText__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/PhotoText/PhotoText */ "./components/PhotoText/PhotoText.js");
+/* harmony import */ var _components_IpadText_IpadText__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/IpadText/IpadText */ "./components/IpadText/IpadText.js");
+/* harmony import */ var _components_Services_Services__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Services/Services */ "./components/Services/Services.js");
+/* harmony import */ var _components_TextPhoto_TextPhoto__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/TextPhoto/TextPhoto */ "./components/TextPhoto/TextPhoto.js");
 var _jsxFileName = "/Users/simongnegrete/Desktop/Tailor/Tailor2019/pages/index.js";
+
+
+
 
 
 
@@ -15034,22 +15552,40 @@ function Home() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 12
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Meta__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 13
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PhotoText_PhotoText__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 14
     },
     __self: this
-  }), "Hola");
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_IpadText_IpadText__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Services_Services__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_TextPhoto_TextPhoto__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
@@ -15127,6 +15663,43 @@ var FontH2 = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h2(_templ
   return props.size ? props.size : '15px';
 });
 /* harmony default export */ __webpack_exports__["default"] = (FontH2);
+
+/***/ }),
+
+/***/ "./styles/fontsStyles/fontButton.js":
+/*!******************************************!*\
+  !*** ./styles/fontsStyles/fontButton.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+
+function _templateObject() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    font-family: Grabenbach-regular,Helvetica,Arial;\n    font-weight: 400;\n    font-size: ", ";\n    letter-spacing: 2.5px;\n    line-height: 1.35;\n    color: ", ";;\n    text-align: ", ";;\n    margin: 0;\n\n    @media only screen and (min-width:415px) and (max-width:768px){\n    }\n\n    @media only screen and (min-width:769px){\n        font-size: ", ";\n    }\n\n\n\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+var FontButton = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].p(_templateObject(), function (props) {
+  return props.size ? props.size : '10px';
+}, function (props) {
+  return props.color ? props.color : '#0F1C51';
+}, function (props) {
+  return props.align ? props.align : 'left';
+}, function (props) {
+  return props.size ? props.size : '15px';
+});
+/* harmony default export */ __webpack_exports__["default"] = (FontButton);
 
 /***/ }),
 
