@@ -1,4 +1,4 @@
-[
+
     {
         "img":"static/img/simon-gonzalez-negrete-nunc.jpg",
         "title":"QUÉ ES TAILOR",
@@ -19,7 +19,11 @@
         "text6":"Nos apasiona la tecnología. No solo creemos que la tecnología es nuestra forma de ayudarte a tener un impacto real, sino también nuestro camino para dejar nuestra huella en el mundo.",
         
         "img4":"static/img/teamImg.jpg",
-        "title5":"EQUIPO"
+        "title7":"EQUIPO",
+        "title8":"Estamos buscando:",
+        "hiring1":"UX writer",
+        "hiring2":"Full Stack Developer",
+        "hiring3":"Back Developer"
+        
 
     }
-]

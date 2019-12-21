@@ -8,12 +8,12 @@ import Fonth2 from "../../styles/fontsStyles/Fonth2"
 import home from "../../content/home.json"
 
 
-const displayHome = () => {
+
+const PhotoText = props => {
+    const { img, title, text1, text2 } = home;
     return (
-        home.map((member, i) => {
-            const { img, title, text1, text2 } = member;
-            return (
-                <div className="global" key={i} >
+        <PhotoTextStyle >
+                <div className="global" >
                     <div className="colum1" >
                         <img src={img} />
                     </div>
@@ -28,17 +28,6 @@ const displayHome = () => {
                     </div>
                 </div>
             )
-        })
-    )
-}
-
-
-const PhotoText = props => {
-
-
-    return (
-        <PhotoTextStyle >
-            {displayHome()}
         </PhotoTextStyle>
     );
 };

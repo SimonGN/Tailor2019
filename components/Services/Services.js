@@ -5,27 +5,16 @@ import Fonth2 from "../../styles/fontsStyles/Fonth2";
 
 import home from "../../content/home.json"
 
-const displayService = () => {
-    return (
-        home.map((member, i) => {
-            const { title3 } = member;
-            return (
-                <div className="global" key={i} >
-                    <Fonth2> {title3}</Fonth2>
-                </div>
-            )
-        })
-    )
-}
+
 
 const Services = props => {
-
+    const { title3 } = home;
     return (
         
         <ServicesStyle>
             <div className="global">
                 <div className="title">
-                    {displayService()}
+                <Fonth2> {title3}</Fonth2>
                 </div>
                 
                 <div className="svg">

@@ -26,7 +26,6 @@ const Meta = () => {
         <style jsx global>{`
         html, body {
             max-width: 100%;
-            overflow-x: hidden;
             background-color: #eaf4ec;
             
           }

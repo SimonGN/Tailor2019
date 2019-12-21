@@ -7,44 +7,37 @@ import Fonth1 from "../../styles/fontsStyles/Fonth2"
 import Fonth2 from "../../styles/fontsStyles/Fonth2"
 
 import Team from "./Team"
+import Button from "../Button/Button"
 
 import home from "../../content/home.json"
 
 
-const displayTeam = () => {
-    return (
-        home.map((member, i) => {
-            const { img4, title, text1 } = member;
-            return (
-                <div className="global" key={i} >
-                    <div className="colum1" >
-                        <img src={img4} />
-                    </div>
-                    <div className="title">
-                        <Fonth2> {title}</Fonth2>
-                    </div>
-                    <div className="colum2">
-                        <div className="text">
-                            <div className="sticky">
-                            <Team />
-                            <Fonth2> {text1}</Fonth2>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            )
-        })
-    )
-}
-
 
 const PhotoTeam = props => {
-        return (
-            <PhotoTeamStyle >
-                {displayTeam()}
-            </PhotoTeamStyle>
-        );
-    };
+    const { img4, title, title8, hiring1, hiring2, hiring3} = home;
+    return (
+        <PhotoTeamStyle >
+            <div className="global" >
+                <div className="colum1" >
+                    <img src={img4} />
+                </div>
+                <div className="title">
+                    <Fonth2> {title}</Fonth2>
+                </div>
+                <div className="colum2">
+                    <Team />
+                </div>
+            </div>
+            <div className="hiring">
+                <FontP> {title8}</FontP>
+                <div className="elementHiring">
+                    <Button content={hiring1} />
+                    <Button content={hiring2} />
+                    <Button content={hiring3} />
+                </div>
+            </div>
+        </PhotoTeamStyle>
+    );
+};
 
-    export default PhotoTeam;
+export default PhotoTeam;

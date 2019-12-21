@@ -7,7 +7,7 @@ import Fonth1 from "../../styles/fontsStyles/Fonth2"
 import Fonth2 from "../../styles/fontsStyles/Fonth2"
 
 
-import team from "../../content/home.json"
+import team from "../../content/team.json"
 
 
 const displayTeam = () => {
@@ -15,9 +15,9 @@ const displayTeam = () => {
         team.map((member,i)=> {
             const  { name , cargo, linkedin } = member;
             return (
-                <div key={i}>
+                <div className="personTeam"key={i} >
                     <FontA target="_blank" href={linkedin}>{name}</FontA>                 
-                    <FontP>{cargo}</FontP>
+                    <FontP size="19px">{cargo}</FontP>
                 </div>
             )
         })
@@ -27,9 +27,9 @@ const displayTeam = () => {
 
 const Team = props => {
         return (
-            <PhotoTeamStyle >
+            <div className="team-container">
                 {displayTeam()}
-            </PhotoTeamStyle>
+             </div>
         );
     };
 

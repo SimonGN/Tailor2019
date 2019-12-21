@@ -3,6 +3,8 @@ import styled from 'styled-components';
 const ServicesStyle = styled.div`
     display: flex;
     align-items: center;
+    overflow-x: hidden;
+
     /* width:100vw; */
     height: 100vh;
     @-webkit-keyframes drift{

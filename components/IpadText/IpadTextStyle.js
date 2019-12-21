@@ -52,7 +52,7 @@ const IpadTextStyle = styled.div`
         }
         .text{
             width: 80%;
-            height: 100vh;
+            min-height: 100vh;
             justify-content: center;
         }
         .paragraph{

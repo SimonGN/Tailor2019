@@ -45,7 +45,7 @@ const PhotoTextStyle = styled.div`
         }
         .text{
             width: 80%;
-            height: 90vh;
+            min-height: 90vh;
 
             justify-content: center;
         }
