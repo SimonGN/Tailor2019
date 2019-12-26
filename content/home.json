@@ -23,7 +23,20 @@
         "title8":"Estamos buscando:",
         "hiring1":"UX writer",
         "hiring2":"Full Stack Developer",
-        "hiring3":"Back Developer"
+        "hiring3":"Back Developer",
+
+        "title9":"Estamos buscando:",
+
+        "title10": "Hablan de nosotros",
+        "text9":"Play",
+
+
+        "logo":"",
+        "email":"hola@tailor-hub.com",
+        "phone":"+34 644 564 713",
+        "direction":"Esteban Terradas 9 1B, Madrid",
+        "cc":"Copyright © by Tailor hub S.L, 2019. All rights reserved. All materials on this website are intellectual property of Tailor hub S.L."
+
         
 
     }

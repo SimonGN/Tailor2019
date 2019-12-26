@@ -73,6 +73,139 @@ var ButtonStyle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(
 
 /***/ }),
 
+/***/ "./components/Footer/Footer.js":
+/*!*************************************!*\
+  !*** ./components/Footer/Footer.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _FooterStyle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FooterStyle */ "./components/Footer/FooterStyle.js");
+/* harmony import */ var _styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../styles/fontsStyles/fontP */ "./styles/fontsStyles/fontP.js");
+/* harmony import */ var _content_home_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../content/home.json */ "./content/home.json");
+var _content_home_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../content/home.json */ "./content/home.json", 1);
+var _jsxFileName = "/Users/simongnegrete/Desktop/Tailor/Tailor2019/components/Footer/Footer.js";
+
+
+
+
+
+var Footer = function Footer(props) {
+  var logo = _content_home_json__WEBPACK_IMPORTED_MODULE_3__.logo,
+      email = _content_home_json__WEBPACK_IMPORTED_MODULE_3__.email,
+      phone = _content_home_json__WEBPACK_IMPORTED_MODULE_3__.phone,
+      direction = _content_home_json__WEBPACK_IMPORTED_MODULE_3__.direction,
+      cc = _content_home_json__WEBPACK_IMPORTED_MODULE_3__.cc;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_FooterStyle__WEBPACK_IMPORTED_MODULE_1__["FooterStyle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "img",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: logo,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "contact",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    color: "white",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, " ", email), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    color: "white",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, " ", phone)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "direction",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    color: "white",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, " ", direction)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "cc",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    color: "white",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, " ", cc)));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
+/***/ "./components/Footer/FooterStyle.js":
+/*!******************************************!*\
+  !*** ./components/Footer/FooterStyle.js ***!
+  \******************************************/
+/*! exports provided: FooterStyle */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FooterStyle", function() { return FooterStyle; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+
+function _templateObject() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\nbackground-color: #0F1C51\n\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+var FooterStyle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject());
+
+
+/***/ }),
+
 /***/ "./components/IpadText/IpadText.js":
 /*!*****************************************!*\
   !*** ./components/IpadText/IpadText.js ***!
@@ -1071,14 +1204,248 @@ var TextPhotoStyle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].d
 
 /***/ }),
 
+/***/ "./components/VideoGallery/VideoGallery.js":
+/*!*************************************************!*\
+  !*** ./components/VideoGallery/VideoGallery.js ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _VideoGalleryStyle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./VideoGalleryStyle */ "./components/VideoGallery/VideoGalleryStyle.js");
+/* harmony import */ var _styles_fontsStyles_fontButton__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../styles/fontsStyles/fontButton */ "./styles/fontsStyles/fontButton.js");
+/* harmony import */ var _styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../styles/fontsStyles/fontP */ "./styles/fontsStyles/fontP.js");
+/* harmony import */ var _styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../styles/fontsStyles/Fonth2 */ "./styles/fontsStyles/Fonth2.js");
+/* harmony import */ var _content_home_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../content/home.json */ "./content/home.json");
+var _content_home_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../content/home.json */ "./content/home.json", 1);
+/* harmony import */ var _content_opinion_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../content/opinion.json */ "./content/opinion.json");
+var _content_opinion_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../content/opinion.json */ "./content/opinion.json", 1);
+
+var _jsxFileName = "/Users/simongnegrete/Desktop/Tailor/Tailor2019/components/VideoGallery/VideoGallery.js";
+
+
+
+
+
+
+
+
+
+var VideoGallery = function VideoGallery(props) {
+  var title10 = _content_home_json__WEBPACK_IMPORTED_MODULE_7__.title10,
+      text9 = _content_home_json__WEBPACK_IMPORTED_MODULE_7__.text9;
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(0),
+      _useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
+      tab = _useState2[0],
+      setTab = _useState2[1];
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(_content_opinion_json__WEBPACK_IMPORTED_MODULE_8__[0]),
+      _useState4 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState3, 2),
+      opinionItem = _useState4[0],
+      setOpinionItems = _useState4[1];
+
+  var changeItem = function changeItem(number) {
+    setOpinionItems(_content_opinion_json__WEBPACK_IMPORTED_MODULE_8__[number]);
+  };
+
+  var changeTab = function changeTab(number) {
+    if (number >= 0 && number < 4) {
+      setTab(number);
+      changeItem(number);
+    }
+  };
+
+  var photo = opinionItem.photo,
+      url = opinionItem.url,
+      description = opinionItem.description,
+      name = opinionItem.name;
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_VideoGalleryStyle__WEBPACK_IMPORTED_MODULE_3__["VideoGalleryStyle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "global",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "column1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    className: "play",
+    color: "white",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, text9), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: photo,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    color: "white",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, " ", title10)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "colum1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    color: "white",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, description), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    color: "white",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, name), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "buttonDiv",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "".concat(tab === 0 && 'active'),
+    onClick: function onClick() {
+      return changeTab(0);
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "".concat(tab === 1 && 'active'),
+    onClick: function onClick() {
+      return changeTab(1);
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "".concat(tab === 2 && 'active'),
+    onClick: function onClick() {
+      return changeTab(2);
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "".concat(tab === 3 && 'active'),
+    onClick: function onClick() {
+      return changeTab(3);
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (VideoGallery);
+
+/***/ }),
+
+/***/ "./components/VideoGallery/VideoGalleryStyle.js":
+/*!******************************************************!*\
+  !*** ./components/VideoGallery/VideoGalleryStyle.js ***!
+  \******************************************************/
+/*! exports provided: VideoGalleryStyle */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VideoGalleryStyle", function() { return VideoGalleryStyle; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+
+function _templateObject() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\nbackground-color: #0F1C51\n    img{\n        width:100%;\n        object-fit:cover;\n        position:relative;\n    }\n    .play{ \n        width:50%;\n        height:100%;\n        position:absolute;\n        z-index:1;\n        display: flex;\n        align-items: center;\n        justify-content:center;\n        cursor:pointer;\n    }\n    .text{\n        display: flex;\n        flex-direction: column;\n    }\n    .title{\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        white-space: nowrap;\n        writing-mode: vertical-lr;\n        transform: rotate(180deg);\n    }\n    .global{\n        display:flex;\n    }\n\n\n    \n    \n    @media only screen and (min-width:415px) and (max-width:768px){\n        \n    }\n    @media only screen and (min-width:769px) {\n        h1{\n            margin-bottom:2.5%;\n        }\n        .colum1, .colum2{\n            width:46%\n        }\n        img{\n            min-height:80vh;\n        }\n        .title{\n            width:8%;\n            white-space: nowrap;\n            writing-mode: vertical-lr;\n            transform: rotate(180deg);\n        }\n        .text{\n            width: 80%;\n            min-height: 90vh;\n            justify-content: center;\n        }\n\n    }\n\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+var VideoGalleryStyle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject());
+
+
+/***/ }),
+
 /***/ "./content/home.json":
 /*!***************************!*\
   !*** ./content/home.json ***!
   \***************************/
-/*! exports provided: img, title, text1, text2, img2, title2, text3, text4, button, title3, img3, title4, text5, text6, img4, title7, title8, hiring1, hiring2, hiring3, default */
+/*! exports provided: img, title, text1, text2, img2, title2, text3, text4, button, title3, img3, title4, text5, text6, img4, title7, title8, hiring1, hiring2, hiring3, title9, title10, text9, logo, email, phone, direction, cc, default */
 /***/ (function(module) {
 
-module.exports = {"img":"static/img/simon-gonzalez-negrete-nunc.jpg","title":"QUÉ ES TAILOR","text1":"Tailor es una boutique digital cuyo objetivo es dar forma a productos o idéas.","text2":"Creamos productos y soluciones digitales para PYMES, startups y grandes empresas.","img2":"static/img/ipad.png","title2":"CÓMO TRABAJAMOS","text3":"Siempre entregamos más de lo que esperas. Y lo hacemos de forma transparente.","text4":"Con un solo clic, podrás seguir el progreso de tu proyecto de forma sencilla e intuitiva.","button":"IR A ESPACIO","title3":"SERVICIOS","img3":"static/img/imgValuesTailor.jpg","title4":"QUIÉNES SOMOS","text5":"Provenimos de carreras de lo más dispares, pero nuestras ganas de acercar el código nos hizo unirnos. Hoy, esos diversos orígenes y talentos nos permiten solucionar infinitos retos digitales.","text6":"Nos apasiona la tecnología. No solo creemos que la tecnología es nuestra forma de ayudarte a tener un impacto real, sino también nuestro camino para dejar nuestra huella en el mundo.","img4":"static/img/teamImg.jpg","title7":"EQUIPO","title8":"Estamos buscando:","hiring1":"UX writer","hiring2":"Full Stack Developer","hiring3":"Back Developer"};
+module.exports = {"img":"static/img/simon-gonzalez-negrete-nunc.jpg","title":"QUÉ ES TAILOR","text1":"Tailor es una boutique digital cuyo objetivo es dar forma a productos o idéas.","text2":"Creamos productos y soluciones digitales para PYMES, startups y grandes empresas.","img2":"static/img/ipad.png","title2":"CÓMO TRABAJAMOS","text3":"Siempre entregamos más de lo que esperas. Y lo hacemos de forma transparente.","text4":"Con un solo clic, podrás seguir el progreso de tu proyecto de forma sencilla e intuitiva.","button":"IR A ESPACIO","title3":"SERVICIOS","img3":"static/img/imgValuesTailor.jpg","title4":"QUIÉNES SOMOS","text5":"Provenimos de carreras de lo más dispares, pero nuestras ganas de acercar el código nos hizo unirnos. Hoy, esos diversos orígenes y talentos nos permiten solucionar infinitos retos digitales.","text6":"Nos apasiona la tecnología. No solo creemos que la tecnología es nuestra forma de ayudarte a tener un impacto real, sino también nuestro camino para dejar nuestra huella en el mundo.","img4":"static/img/teamImg.jpg","title7":"EQUIPO","title8":"Estamos buscando:","hiring1":"UX writer","hiring2":"Full Stack Developer","hiring3":"Back Developer","title9":"Estamos buscando:","title10":"Hablan de nosotros","text9":"Play","logo":"","email":"hola@tailor-hub.com","phone":"+34 644 564 713","direction":"Esteban Terradas 9 1B, Madrid","cc":"Copyright © by Tailor hub S.L, 2019. All rights reserved. All materials on this website are intellectual property of Tailor hub S.L."};
+
+/***/ }),
+
+/***/ "./content/opinion.json":
+/*!******************************!*\
+  !*** ./content/opinion.json ***!
+  \******************************/
+/*! exports provided: 0, 1, default */
+/***/ (function(module) {
+
+module.exports = [{"photo":"/static/img/vasalto.jpg","url":"","description":"“Necesitábamos un equipo capaz de conseguir un efecto WOW, que nuestros clientes al mirar la página web, se quedan sorprendidos”","name":"Piere Paradis, VASALTO"},{"photo":"/static/img/vasalto.jpg","url":"","description":"“Facilidades en todos los sentidos, y además con unas ideas de diseño y desarrollo que se salían de lo habitual”","name":"Alfonso Fernandez, AMAPED"}];
 
 /***/ }),
 
@@ -15758,7 +16125,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Services_Services__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Services/Services */ "./components/Services/Services.js");
 /* harmony import */ var _components_TextPhoto_TextPhoto__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/TextPhoto/TextPhoto */ "./components/TextPhoto/TextPhoto.js");
 /* harmony import */ var _components_PhotoTeam_PhotoTeam__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/PhotoTeam/PhotoTeam */ "./components/PhotoTeam/PhotoTeam.js");
+/* harmony import */ var _components_VideoGallery_VideoGallery__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/VideoGallery/VideoGallery */ "./components/VideoGallery/VideoGallery.js");
+/* harmony import */ var _components_Footer_Footer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Footer/Footer */ "./components/Footer/Footer.js");
 var _jsxFileName = "/Users/simongnegrete/Desktop/Tailor/Tailor2019/pages/index.js";
+
+
 
 
 
@@ -15771,43 +16142,55 @@ function Home() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 15
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Meta__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 16
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PhotoText_PhotoText__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 17
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_IpadText_IpadText__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 18
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Services_Services__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 19
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_TextPhoto_TextPhoto__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 20
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PhotoTeam_PhotoTeam__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 21
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_VideoGallery_VideoGallery__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
     },
     __self: this
   }));
