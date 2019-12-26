@@ -65,92 +65,15 @@ const ServicesStyle = styled.div`
             width:3000vw;
         } */
     }
-    @media only screen and (min-width:769px) and (max-width:1024px){
-        /* display: flex;
-        align-items: center;
-        padding:0;
-        .global{
-            padding-bottom:130px;
+    @media only screen and (min-width:769px){
+        .scroll1, .scroll2, .scroll3.scroll3, .scroll4{
+            width: 92%;
+            margin-bottom: 0.05%;
         }
-        .title{
-            writing-mode: vertical-rl;
-            transform: rotate(180deg);
-            margin-bottom:8%;
-            position:absolute;
-            left: 4.5%;
-            top: 15%;
-            z-index: 1;
-        }
-        .svg {
-            width:1000vw;
-            img{
-                width:200%; 
-            }
-        } */
-    }
-    @media only screen and (max-height: 768px) and (max-width: 1024px) and (orientation:landscape){
-        /* padding:0;
-        .global{
-            padding-bottom:130px;
-        }
-        .title{
-            left: 4.5%;
-            top: 15%;
-        }
-        .svg {
-            width:1000vw;
-            img{
-                width:200%; 
-            }
-        } */
-    }
+        
+    } 
 
-    @media only screen and (min-width:1025px) and (max-width:1440px){      
-        /* display: flex;
-        align-items: center;
-        padding-top:18%;
-        padding:0;
-        .global{
-            padding-bottom:130px;
-        }
-        .title{
-            left: 4.5%;
-            top: 19%;
-        }
-        .svg {
-            width:1000vw;
-            img{
-                width:155%; 
-            }
-        }
-        .scroll1,.scroll3,.scroll2, .scroll4{
-            display:block;
-            margin-bottom: 0.1%;
-        } */
-    }
-    @media only screen and (min-width:1441px){
-        /* display: flex;
-        align-items: center;
-        padding:0;
-        .global{
-            padding-bottom:130px;
-        }
-        .title{
-            left: 6.1%;
-            top: 20%;
-        }
-        .svg {
-            width:750vw;
-            img{
-                width:200%; 
-            }
-        }
-        .scroll1,.scroll3,.scroll2, .scroll4{
-            display:block;
-            margin-bottom: 0.1%;
-        } */
-
-    }
+    
 `;
 
 export { ServicesStyle };

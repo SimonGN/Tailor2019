@@ -28,13 +28,16 @@
         "title9":"Estamos buscando:",
 
         "title10": "Hablan de nosotros",
-        "text9":"Play",
+        "text9":"PLAY",
 
 
-        "logo":"",
+        "logo":"static/svg/whiteLogoTailor.svg",
         "email":"hola@tailor-hub.com",
+        "urlEmail":"mailto:hola@tailor-hub.com",
         "phone":"+34 644 564 713",
+        "urlPhone":"tel:+34 644 564 713",
         "direction":"Esteban Terradas 9 1B, Madrid",
+        "urlDirection":"https://www.google.com/maps/dir/40.4692725,-3.6847635/Tailor+hub+28046+Madrid/@40.4692514,-3.7548034,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd42292a2d12ceb7:0x6f3f0ffdcfc127d4!2m2!1d-3.6847635!2d40.4692725",
         "cc":"Copyright © by Tailor hub S.L, 2019. All rights reserved. All materials on this website are intellectual property of Tailor hub S.L."
 
         

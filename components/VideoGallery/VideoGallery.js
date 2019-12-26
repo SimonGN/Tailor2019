@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 
 import { VideoGalleryStyle } from "./VideoGalleryStyle";
-import FontButton from "../../styles/fontsStyles/fontButton";
+import FontA from "../../styles/fontsStyles/fonta";
 import FontP from "../../styles/fontsStyles/fontP";
 import Fonth2 from "../../styles/fontsStyles/Fonth2";
 
@@ -32,8 +32,8 @@ const VideoGallery = props => {
         <VideoGalleryStyle>
             <div className="global">
                 <div className="column1">
-                    <FontP className="play" color="white">{text9}</FontP>
-                    <img src={photo} />
+                    <FontA size="16px" className="play" color="white"href={url}>{text9}</FontA>
+                    <img src={photo} />       
                 </div>
                 <div className="title">
                     <Fonth2 color="white"> {title10}</Fonth2>
@@ -45,8 +45,6 @@ const VideoGallery = props => {
                         <div className="buttonDiv">
                             <div className={`${tab === 0 && 'active'}`} onClick={() => changeTab(0)}></div>
                             <div className={`${tab === 1 && 'active'}`} onClick={() => changeTab(1)}></div>
-                            <div className={`${tab === 2 && 'active'}`} onClick={() => changeTab(2)}></div>
-                            <div className={`${tab === 3 && 'active'}`} onClick={() => changeTab(3)}></div>
                         </div>
                     </div>
                 </div>

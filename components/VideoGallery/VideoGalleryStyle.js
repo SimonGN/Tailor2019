@@ -2,11 +2,14 @@ import styled from 'styled-components';
 
 
 const VideoGalleryStyle = styled.div`
-background-color: #0F1C51
+background-color: #0F1C51;
     img{
         width:100%;
         object-fit:cover;
         position:relative;
+        opacity:100%;
+        filter: blur(10px);
+       
     }
     .play{ 
         width:50%;
@@ -21,6 +24,9 @@ background-color: #0F1C51
     .text{
         display: flex;
         flex-direction: column;
+        & > p{
+            margin-bottom:5%;
+        }
     }
     .title{
         display: flex;
@@ -32,6 +38,28 @@ background-color: #0F1C51
     }
     .global{
         display:flex;
+    }
+    .buttonDiv{
+        display:flex;
+        justify-content:center;
+        margin-top:10%;
+        div{
+            width: 15px;
+            height: 15px;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+            background: transparent;
+            border: 1px solid white;
+            margin-left:2%;
+            cursor:pointer;
+        }
+        div:first-child{
+            margin-left:0;
+        }
+        div.active {
+            background-color:white;
+        }
     }
 
 
@@ -47,8 +75,13 @@ background-color: #0F1C51
         .colum1, .colum2{
             width:46%
         }
+        .photo{
+            width:100%;
+
+        }
         img{
             min-height:80vh;
+
         }
         .title{
             width:8%;
@@ -58,7 +91,7 @@ background-color: #0F1C51
         }
         .text{
             width: 80%;
-            min-height: 90vh;
+            min-height: 100%;
             justify-content: center;
         }
 
