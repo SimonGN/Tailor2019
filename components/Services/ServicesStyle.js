@@ -52,19 +52,6 @@ const ServicesStyle = styled.div`
         transform: rotate(180deg);
         z-index: 1;
     }
-
-    @media only screen and (min-width:415px) and (max-width:768px){
-        /* display: flex;
-        align-items: center;
-        .title{
-            writing-mode: vertical-rl;
-            transform: rotate(180deg);
-            position:absolute;
-        }
-        .svg {
-            width:3000vw;
-        } */
-    }
     @media only screen and (min-width:769px){
         .scroll1, .scroll2, .scroll3.scroll3, .scroll4{
             width: 92%;

@@ -3,12 +3,20 @@ import styled from 'styled-components';
 
 const VideoGalleryStyle = styled.div`
 background-color: #0F1C51;
+/* .colum1{
+    width:100%;
+    height:500px;
+    backdrop-filter: url(${props => (props.photo ? `url(${props.photo})` : '')}#filter) blur(4px);
+    -webkit-backdrop-filter: blur(10px);
+} */
     img{
         width:100%;
         object-fit:cover;
         position:relative;
-        opacity:100%;
-        filter: blur(10px);
+        opacity:50%;
+        /* backdrop-filter: url(filters.svg#filter) blur(4px); */
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
        
     }
     .play{ 
@@ -93,6 +101,10 @@ background-color: #0F1C51;
             width: 80%;
             min-height: 100%;
             justify-content: center;
+        }
+        .play{
+            width: 50.6%;
+    height: 103%;
         }
 
     }

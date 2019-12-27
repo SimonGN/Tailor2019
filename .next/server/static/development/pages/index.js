@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1018,7 +1018,7 @@ var PhotoText = function PhotoText(props) {
       lineNumber: 26
     },
     __self: this
-  }, " ", text2)))), ")");
+  }, " ", text2)))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (PhotoText);
@@ -1167,7 +1167,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    display: flex;\n    align-items: center;\n    overflow-x: hidden;\n\n    /* width:100vw; */\n    height: 100vh;\n    @-webkit-keyframes drift{\n    0% {\n        -webkit-transform:translateX(0);\n        transform:translateX(0);\n    }\n    to{\n        -webkit-transform:translateX(-100%);\n        transform:translateX(-100%);\n    }\n    }\n    @keyframes drift{\n    0%\n    {\n        -webkit-transform:translateX(0);\n        transform:translateX(0);\n    }\n    to{\n        -webkit-transform:translateX(-100%);\n        transform:translateX(-100%);\n    }\n    }\n    .svg {\n        width:1800vw;\n        -webkit-animation:drift 200s linear infinite alternate;\n        animation:drift 200s linear infinite alternate;\n    }\n    h2{\n        width: 100vw;\n        display: flex;\n        align-items: center;\n    }\n\n    .global{\n        /* width: 100vw; */\n        height: 100vh;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n    }\n\n    .title{\n        writing-mode: vertical-rl;\n        transform: rotate(180deg);\n        z-index: 1;\n    }\n\n    @media only screen and (min-width:415px) and (max-width:768px){\n        /* display: flex;\n        align-items: center;\n        .title{\n            writing-mode: vertical-rl;\n            transform: rotate(180deg);\n            position:absolute;\n        }\n        .svg {\n            width:3000vw;\n        } */\n    }\n    @media only screen and (min-width:769px){\n        .scroll1, .scroll2, .scroll3.scroll3, .scroll4{\n            width: 92%;\n            margin-bottom: 0.05%;\n        }\n        \n    } \n\n    \n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    display: flex;\n    align-items: center;\n    overflow-x: hidden;\n\n    /* width:100vw; */\n    height: 100vh;\n    @-webkit-keyframes drift{\n    0% {\n        -webkit-transform:translateX(0);\n        transform:translateX(0);\n    }\n    to{\n        -webkit-transform:translateX(-100%);\n        transform:translateX(-100%);\n    }\n    }\n    @keyframes drift{\n    0%\n    {\n        -webkit-transform:translateX(0);\n        transform:translateX(0);\n    }\n    to{\n        -webkit-transform:translateX(-100%);\n        transform:translateX(-100%);\n    }\n    }\n    .svg {\n        width:1800vw;\n        -webkit-animation:drift 200s linear infinite alternate;\n        animation:drift 200s linear infinite alternate;\n    }\n    h2{\n        width: 100vw;\n        display: flex;\n        align-items: center;\n    }\n\n    .global{\n        /* width: 100vw; */\n        height: 100vh;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n    }\n\n    .title{\n        writing-mode: vertical-rl;\n        transform: rotate(180deg);\n        z-index: 1;\n    }\n    @media only screen and (min-width:769px){\n        .scroll1, .scroll2, .scroll3.scroll3, .scroll4{\n            width: 92%;\n            margin-bottom: 0.05%;\n        }\n        \n    } \n\n    \n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -1371,7 +1371,7 @@ var VideoGallery = function VideoGallery(props) {
   };
 
   var changeTab = function changeTab(number) {
-    if (number >= 0 && number < 4) {
+    if (number >= 0 && number < 2) {
       setTab(number);
       changeItem(number);
     }
@@ -1510,7 +1510,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\nbackground-color: #0F1C51;\n    img{\n        width:100%;\n        object-fit:cover;\n        position:relative;\n        opacity:100%;\n        filter: blur(10px);\n       \n    }\n    .play{ \n        width:50%;\n        height:100%;\n        position:absolute;\n        z-index:1;\n        display: flex;\n        align-items: center;\n        justify-content:center;\n        cursor:pointer;\n    }\n    .text{\n        display: flex;\n        flex-direction: column;\n        & > p{\n            margin-bottom:5%;\n        }\n    }\n    .title{\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        white-space: nowrap;\n        writing-mode: vertical-lr;\n        transform: rotate(180deg);\n    }\n    .global{\n        display:flex;\n    }\n    .buttonDiv{\n        display:flex;\n        justify-content:center;\n        margin-top:10%;\n        div{\n            width: 15px;\n            height: 15px;\n            -moz-border-radius: 50%;\n            -webkit-border-radius: 50%;\n            border-radius: 50%;\n            background: transparent;\n            border: 1px solid white;\n            margin-left:2%;\n            cursor:pointer;\n        }\n        div:first-child{\n            margin-left:0;\n        }\n        div.active {\n            background-color:white;\n        }\n    }\n\n\n    \n    \n    @media only screen and (min-width:415px) and (max-width:768px){\n        \n    }\n    @media only screen and (min-width:769px) {\n        h1{\n            margin-bottom:2.5%;\n        }\n        .colum1, .colum2{\n            width:46%\n        }\n        .photo{\n            width:100%;\n\n        }\n        img{\n            min-height:80vh;\n\n        }\n        .title{\n            width:8%;\n            white-space: nowrap;\n            writing-mode: vertical-lr;\n            transform: rotate(180deg);\n        }\n        .text{\n            width: 80%;\n            min-height: 100%;\n            justify-content: center;\n        }\n\n    }\n\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\nbackground-color: #0F1C51;\n/* .colum1{\n    width:100%;\n    height:500px;\n    backdrop-filter: url(", "#filter) blur(4px);\n    -webkit-backdrop-filter: blur(10px);\n} */\n    img{\n        width:100%;\n        object-fit:cover;\n        position:relative;\n        opacity:50%;\n        /* backdrop-filter: url(filters.svg#filter) blur(4px); */\n        backdrop-filter: blur(10px);\n        -webkit-backdrop-filter: blur(10px);\n       \n    }\n    .play{ \n        width:50%;\n        height:100%;\n        position:absolute;\n        z-index:1;\n        display: flex;\n        align-items: center;\n        justify-content:center;\n        cursor:pointer;\n    }\n    .text{\n        display: flex;\n        flex-direction: column;\n        & > p{\n            margin-bottom:5%;\n        }\n    }\n    .title{\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        white-space: nowrap;\n        writing-mode: vertical-lr;\n        transform: rotate(180deg);\n    }\n    .global{\n        display:flex;\n    }\n    .buttonDiv{\n        display:flex;\n        justify-content:center;\n        margin-top:10%;\n        div{\n            width: 15px;\n            height: 15px;\n            -moz-border-radius: 50%;\n            -webkit-border-radius: 50%;\n            border-radius: 50%;\n            background: transparent;\n            border: 1px solid white;\n            margin-left:2%;\n            cursor:pointer;\n        }\n        div:first-child{\n            margin-left:0;\n        }\n        div.active {\n            background-color:white;\n        }\n    }\n\n\n    \n    \n    @media only screen and (min-width:415px) and (max-width:768px){\n        \n    }\n    @media only screen and (min-width:769px) {\n        h1{\n            margin-bottom:2.5%;\n        }\n        .colum1, .colum2{\n            width:46%\n        }\n        .photo{\n            width:100%;\n\n        }\n        img{\n            min-height:80vh;\n\n        }\n        .title{\n            width:8%;\n            white-space: nowrap;\n            writing-mode: vertical-lr;\n            transform: rotate(180deg);\n        }\n        .text{\n            width: 80%;\n            min-height: 100%;\n            justify-content: center;\n        }\n        .play{\n            width: 50.6%;\n    height: 103%;\n        }\n\n    }\n\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -1520,7 +1520,247 @@ function _templateObject() {
 }
 
 
-var VideoGalleryStyle = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div(_templateObject());
+var VideoGalleryStyle = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div(_templateObject(), function (props) {
+  return props.photo ? "url(".concat(props.photo, ")") : '';
+});
+
+
+/***/ }),
+
+/***/ "./components/WorkGallery/WorkGallery.js":
+/*!***********************************************!*\
+  !*** ./components/WorkGallery/WorkGallery.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _WorkGalleryStyle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./WorkGalleryStyle */ "./components/WorkGallery/WorkGalleryStyle.js");
+/* harmony import */ var _styles_fontsStyles_fonta__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../styles/fontsStyles/fonta */ "./styles/fontsStyles/fonta.js");
+/* harmony import */ var _styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../styles/fontsStyles/fontP */ "./styles/fontsStyles/fontP.js");
+/* harmony import */ var _styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../styles/fontsStyles/Fonth2 */ "./styles/fontsStyles/Fonth2.js");
+/* harmony import */ var _Button_Button__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../Button/Button */ "./components/Button/Button.js");
+/* harmony import */ var _content_home_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../content/home.json */ "./content/home.json");
+var _content_home_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../content/home.json */ "./content/home.json", 1);
+/* harmony import */ var _content_project_json__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../content/project.json */ "./content/project.json");
+var _content_project_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../content/project.json */ "./content/project.json", 1);
+
+var _jsxFileName = "/Users/simongnegrete/Desktop/Tailor/Tailor2019/components/WorkGallery/WorkGallery.js";
+
+
+
+
+
+
+
+
+
+
+var WorkGallery = function WorkGallery(props) {
+  // const {  } = project;
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(0),
+      _useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
+      tab = _useState2[0],
+      setTab = _useState2[1];
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(_content_project_json__WEBPACK_IMPORTED_MODULE_9__[0]),
+      _useState4 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState3, 2),
+      projectItem = _useState4[0],
+      setProjectItems = _useState4[1];
+
+  var changeItem = function changeItem(number) {
+    setProjectItems(_content_project_json__WEBPACK_IMPORTED_MODULE_9__[number]);
+  };
+
+  var changeTab = function changeTab(number) {
+    if (number >= 0 && number < 4) {
+      setTab(number);
+      changeItem(number);
+    }
+  };
+
+  var img = projectItem.img,
+      url = projectItem.url,
+      name = projectItem.name,
+      stackDesign = projectItem.stackDesign,
+      stackWeb = projectItem.stackWeb,
+      description = projectItem.description,
+      client = projectItem.client;
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_WorkGalleryStyle__WEBPACK_IMPORTED_MODULE_3__["WorkGalleryStyle"], {
+    img: img,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "background",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "info",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "infoText",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    className: "text",
+    size: "15px",
+    color: "white",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, description), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    className: "title",
+    color: "white",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, client), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "buttons",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    target: "_blank",
+    rel: "nofollow noopener noreferrer",
+    href: url,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Button_Button__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    content: name,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    target: "_blank",
+    rel: "nofollow noopener noreferrer",
+    href: url,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Button_Button__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    content: name,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  })))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "buttonDiv",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "".concat(tab === 0 && 'active'),
+    onClick: function onClick() {
+      return changeTab(0);
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "".concat(tab === 1 && 'active'),
+    onClick: function onClick() {
+      return changeTab(1);
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "".concat(tab === 2 && 'active'),
+    onClick: function onClick() {
+      return changeTab(2);
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "".concat(tab === 3 && 'active'),
+    onClick: function onClick() {
+      return changeTab(3);
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  })))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (WorkGallery);
+
+/***/ }),
+
+/***/ "./components/WorkGallery/WorkGalleryStyle.js":
+/*!****************************************************!*\
+  !*** ./components/WorkGallery/WorkGalleryStyle.js ***!
+  \****************************************************/
+/*! exports provided: WorkGalleryStyle */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WorkGalleryStyle", function() { return WorkGalleryStyle; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
+
+
+function _templateObject() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    width:100%;\n    min-height:700px;\n    background-repeat: no-repeat;\n    background-size: cover;\n    background-position: center;\n    background-color: ", ";\n    background-image: ", ";\n    display: flex;\n    align-items: flex-end;\n    .background{\n      width:100%;\n      min-height:250px;\n      background-color:#0F1C5150;\n      -webkit-backdrop-filter: blur(50px);\n      backdrop-filter: blur(100px);\n      position: relative;\n      display:flex;\n      align-items: center;\n  \n    }\n    .info{\n      position: absolute;\n      /* display:flex; */\n    }\n    .infoText{\n      filter: blur(0px);\n    }\n    .buttonDiv{\n        display:flex;\n        justify-content:center;\n        margin-top:5%;\n        div{\n            width: 15px;\n            height: 15px;\n            -moz-border-radius: 50%;\n            -webkit-border-radius: 50%;\n            border-radius: 50%;\n            background: transparent;\n            border: 1px solid white;\n            margin-left:2%;\n            cursor:pointer;\n        }\n        div:first-child{\n            margin-left:0;\n        }\n        div.active {\n            background-color:white;\n        }\n    }\n\n\n    \n    \n    @media only screen and (min-width:415px) and (max-width:768px){\n        \n    }\n    @media only screen and (min-width:769px) {\n        min-height:800px;\n        h1{\n            margin-bottom:2.5%;\n        }\n        .colum1, .colum2{\n            width:46%\n        }\n        .photo{\n            width:100%;\n\n        }\n        img{\n            min-height:80vh;\n\n        }\n        .background{\n          min-height:250px;\n        }\n        .infoText{\n          width:80%;\n          margin:0 auto;\n          display:flex;\n        }\n\n        .title{\n            width:20%;\n            white-space: nowrap;\n            writing-mode: vertical-lr;\n            transform: rotate(180deg);\n            display: flex;\n            align-items: center;\n            justify-content: center;\n        }\n        .text, .buttons{\n            width: 40%;\n        }\n        .buttons, .text{\n          display:flex;\n          align-items: center;\n        }\n\n    }\n\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+var WorkGalleryStyle = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div(_templateObject(), function (props) {
+  return props.img ? '' : '#0F1C51';
+}, function (props) {
+  return props.img ? "url(".concat(props.img, ")") : '';
+});
 
 
 /***/ }),
@@ -1544,6 +1784,17 @@ module.exports = {"img":"static/img/simon-gonzalez-negrete-nunc.jpg","title":"QU
 /***/ (function(module) {
 
 module.exports = [{"photo":"/static/img/vasalto.jpg","url":"https://vimeo.com/356691025","description":"“Necesitábamos un equipo capaz de conseguir un efecto WOW, que nuestros clientes al mirar la página web, se quedan sorprendidos”","name":"Piere Paradis, VASALTO"},{"photo":"/static/img/amaped.jpg","url":"https://vimeo.com/356692622","description":"“Facilidades en todos los sentidos, y además con unas ideas de diseño y desarrollo que se salían de lo habitual”","name":"Alfonso Fernandez, AMAPED"}];
+
+/***/ }),
+
+/***/ "./content/project.json":
+/*!******************************!*\
+  !*** ./content/project.json ***!
+  \******************************/
+/*! exports provided: 0, 1, 2, default */
+/***/ (function(module) {
+
+module.exports = [{"img":"static/img/projectTailorNunc.jpg","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum, arcu quis molestie interdum, ante risus congue dui, nec accumsan risus odio at libero","client":"MAPAAYUDA","stackDesign":"Naming | Branding | UX/UI","stackWeb":"React | React Native | Next Js | Mongo | Web","links":[{"name":"Web","url":"https://nunc.app/"},{"name":"Behance","url":"https://www.behance.net/gallery/88516841/Whole-WIne"}]},{"img":"static/img/projectTailorNunc.jpg","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum, arcu quis molestie interdum, ante risus congue dui, nec accumsan risus odio at libero","client":"NU:NC","stackDesign":"Naming | Branding | UX/UI","stackWeb":"React | React Native | Next Js | Mongo | Web","links":[{"name":"Web","url":"https://nunc.app/"},{"name":"Behance","url":"https://www.behance.net/gallery/88516841/Whole-WIne"}]},{"img":"static/img/projectTailorNunc.jpg","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum, arcu quis molestie interdum, ante risus congue dui, nec accumsan risus odio at libero","client":"AMAPED","stackDesign":"Branding | UX/UI","stackWeb":"React | React Native | Next Js | Mongo | Web","links":[{"name":"Web","url":"https://amaped.com"},{"name":"Behance","url":"https://www.behance.net/gallery/88516841/Whole-WIne"}]}];
 
 /***/ }),
 
@@ -3043,13 +3294,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Meta__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Meta */ "./components/Meta.js");
 /* harmony import */ var _components_PhotoText_PhotoText__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/PhotoText/PhotoText */ "./components/PhotoText/PhotoText.js");
-/* harmony import */ var _components_IpadText_IpadText__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/IpadText/IpadText */ "./components/IpadText/IpadText.js");
-/* harmony import */ var _components_Services_Services__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Services/Services */ "./components/Services/Services.js");
-/* harmony import */ var _components_TextPhoto_TextPhoto__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/TextPhoto/TextPhoto */ "./components/TextPhoto/TextPhoto.js");
-/* harmony import */ var _components_PhotoTeam_PhotoTeam__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/PhotoTeam/PhotoTeam */ "./components/PhotoTeam/PhotoTeam.js");
-/* harmony import */ var _components_VideoGallery_VideoGallery__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/VideoGallery/VideoGallery */ "./components/VideoGallery/VideoGallery.js");
-/* harmony import */ var _components_Footer_Footer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Footer/Footer */ "./components/Footer/Footer.js");
+/* harmony import */ var _components_WorkGallery_WorkGallery__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/WorkGallery/WorkGallery */ "./components/WorkGallery/WorkGallery.js");
+/* harmony import */ var _components_IpadText_IpadText__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/IpadText/IpadText */ "./components/IpadText/IpadText.js");
+/* harmony import */ var _components_Services_Services__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Services/Services */ "./components/Services/Services.js");
+/* harmony import */ var _components_TextPhoto_TextPhoto__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/TextPhoto/TextPhoto */ "./components/TextPhoto/TextPhoto.js");
+/* harmony import */ var _components_PhotoTeam_PhotoTeam__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/PhotoTeam/PhotoTeam */ "./components/PhotoTeam/PhotoTeam.js");
+/* harmony import */ var _components_VideoGallery_VideoGallery__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/VideoGallery/VideoGallery */ "./components/VideoGallery/VideoGallery.js");
+/* harmony import */ var _components_Footer_Footer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Footer/Footer */ "./components/Footer/Footer.js");
 var _jsxFileName = "/Users/simongnegrete/Desktop/Tailor/Tailor2019/pages/index.js";
+
 
 
 
@@ -3064,55 +3317,61 @@ function Home() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 16
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Meta__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 17
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PhotoText_PhotoText__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_IpadText_IpadText__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Services_Services__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_WorkGallery_WorkGallery__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_TextPhoto_TextPhoto__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_IpadText_IpadText__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PhotoTeam_PhotoTeam__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Services_Services__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_VideoGallery_VideoGallery__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_TextPhoto_TextPhoto__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PhotoTeam_PhotoTeam__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_VideoGallery_VideoGallery__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
     },
     __self: this
   }));
@@ -3350,7 +3609,7 @@ var FontA = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.a(_template
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

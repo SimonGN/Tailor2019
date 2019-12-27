@@ -27,7 +27,6 @@ const PhotoText = props => {
                         </div>
                     </div>
                 </div>
-            )
         </PhotoTextStyle>
     );
 };

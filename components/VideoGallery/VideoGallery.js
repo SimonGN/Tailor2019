@@ -20,7 +20,7 @@ const VideoGallery = props => {
     }
 
     const changeTab = (number) => {
-        if (number >= 0 && number < 4) {
+        if (number >= 0 && number < 2) {
             setTab(number);
             changeItem(number);
         }
@@ -29,7 +29,7 @@ const VideoGallery = props => {
     const { photo, url, description,name } = opinionItem;
 
     return (
-        <VideoGalleryStyle>
+        <VideoGalleryStyle >
             <div className="global">
                 <div className="column1">
                     <FontA size="16px" className="play" color="white"href={url}>{text9}</FontA>
