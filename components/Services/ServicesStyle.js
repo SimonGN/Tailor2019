@@ -6,7 +6,6 @@ const ServicesStyle = styled.div`
     overflow-x: hidden;
 
     /* width:100vw; */
-    height: 100vh;
     @-webkit-keyframes drift{
     0% {
         -webkit-transform:translateX(0);
@@ -41,7 +40,7 @@ const ServicesStyle = styled.div`
 
     .global{
         /* width: 100vw; */
-        height: 100vh;
+        height: 50vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -53,8 +52,16 @@ const ServicesStyle = styled.div`
         z-index: 1;
     }
     @media only screen and (min-width:769px){
+        .title{
+            margin-top: -5%;
+        }
+        .global{
+            height: 90vh;
+            margin-top: -5%;
+
+        }
         .scroll1, .scroll2, .scroll3.scroll3, .scroll4{
-            width: 92%;
+            width: 88%;
             margin-bottom: 0.05%;
         }
         

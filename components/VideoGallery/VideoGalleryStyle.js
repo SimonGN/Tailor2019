@@ -2,36 +2,81 @@ import styled from 'styled-components';
 
 
 const VideoGalleryStyle = styled.div`
-background-color: #0F1C51;
-/* .colum1{
-    width:100%;
-    height:500px;
-    backdrop-filter: url(${props => (props.photo ? `url(${props.photo})` : '')}#filter) blur(4px);
-    -webkit-backdrop-filter: blur(10px);
-} */
+    background-color: #0F1C51;
+    width: 100%;
+    max-height: 507px;
+    .global{
+        display:flex;
+        flex-flow:column;
+    }
+    .colum1{
+        position: relative;
+    }
+    .photo{
+        width:100vw;
+        min-height:600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: ${props => (props.photo ? '' : '#0F1C51')};
+        background-image: ${props => (props.photo ? `url(${props.photo})` : '')};
+        position: relative;
+        & > div{
+            width: 100vw;
+            min-height:600px;
+            background-color: #0F1C5130;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            
+        }
+    }
+    .mobile{
+        display:flex;
+        position: absolute;
+        background-color: #0F1C51;
+        padding-top:5%;
+        padding-bottom:5%;
+    }
     img{
         width:100%;
         object-fit:cover;
         position:relative;
         opacity:50%;
-        /* backdrop-filter: url(filters.svg#filter) blur(4px); */
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
-       
+    }
+
+    .mobileTitle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        width:13%;
+    }
+    .mobileText{
+        width:80%;
+        & > p{
+            margin-bottom:5%;
+        }
     }
     .play{ 
-        width:50%;
-        height:100%;
+        top:10%;
+        width:100%;
+        height:80%;
         position:absolute;
         z-index:1;
         display: flex;
         align-items: center;
         justify-content:center;
         cursor:pointer;
+        position: absolute;
     }
     .text{
         display: flex;
         flex-direction: column;
+        display:none;
         & > p{
             margin-bottom:5%;
         }
@@ -43,6 +88,7 @@ background-color: #0F1C51;
         white-space: nowrap;
         writing-mode: vertical-lr;
         transform: rotate(180deg);
+        display:none;
     }
     .global{
         display:flex;
@@ -59,7 +105,7 @@ background-color: #0F1C51;
             border-radius: 50%;
             background: transparent;
             border: 1px solid white;
-            margin-left:2%;
+            margin-left:10px;
             cursor:pointer;
         }
         div:first-child{
@@ -69,33 +115,40 @@ background-color: #0F1C51;
             background-color:white;
         }
     }
-
-
-    
-    
     @media only screen and (min-width:415px) and (max-width:768px){
         
     }
     @media only screen and (min-width:769px) {
+        .global{
+            flex-flow:row;
+            align-items:center;
+        }
+        .mobile{
+            display:none;
+        }
+        .title, .text{
+            display:block;
+        }
         h1{
             margin-bottom:2.5%;
         }
         .colum1, .colum2{
             width:46%
         }
-        .photo{
-            width:100%;
-
-        }
-        img{
-            min-height:80vh;
-
-        }
         .title{
+            display:flex;
+            align-items:center;
             width:8%;
             white-space: nowrap;
             writing-mode: vertical-lr;
             transform: rotate(180deg);
+        }
+        .photo{
+            width:46vw;
+            & > div{
+                width:46vw
+            }
+            
         }
         .text{
             width: 80%;
@@ -103,8 +156,7 @@ background-color: #0F1C51;
             justify-content: center;
         }
         .play{
-            width: 50.6%;
-    height: 103%;
+            top:20%;
         }
 
     }

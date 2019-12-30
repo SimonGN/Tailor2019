@@ -13,20 +13,32 @@ const PhotoText = props => {
     const { img, title, text1, text2 } = home;
     return (
         <PhotoTextStyle >
-                <div className="global" >
-                    <div className="colum1" >
-                        <img src={img} />
+            <div className="global" >
+                <div className="colum1" >
+                    <img src={img} />
+                </div>
+                <div className="title">
+                    <Fonth2> {title}</Fonth2>
+                </div>
+                <div className="colum1">
+                    <div className="text">
+                        <Fonth1> {text1}</Fonth1>
+                        <FontP> {text2}</FontP>
                     </div>
-                    <div className="title">
+                </div>
+                
+                <div className="mobile">
+                    <div className="mobileTitle">
                         <Fonth2> {title}</Fonth2>
                     </div>
                     <div className="colum1">
-                        <div className="text">
+                        <div className="mobileText">
                             <Fonth1> {text1}</Fonth1>
                             <FontP> {text2}</FontP>
                         </div>
                     </div>
                 </div>
+            </div>
         </PhotoTextStyle>
     );
 };

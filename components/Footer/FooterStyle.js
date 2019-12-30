@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const FooterStyle = styled.div`
 background-color: #0F1C51;
-padding-top:9%;
+padding-top:85%;
 a{
     text-decoration:none;
 }
@@ -13,25 +13,40 @@ a{
     justify-content:center;
     align-items:center;
 }
-.contact, .direction{
-    margin-bottom:2%;
-}
+
 .img{
-    width: 5%;
-    
+    width: 15%;
     img{
         width:100%;
     }
-}
+} 
+.img,.direction,.contact{
+        margin-bottom:10%;
+    } 
 .contact{
     display:flex;
-    flex-direction:column;
-}
-.img,.direction{
-    margin-bottom:4%;
+    flex-direction:column; 
 }
 .cc{
-    padding-bottom:1%;
+    padding-bottom:5%;
+    width: 95%;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width:769px) {
+    padding-top:35%;
+    .contact, .direction{
+        margin-bottom:2%;
+    }
+    .img{
+        width: 5%;
+    }   
+    .img,.direction{
+        margin-bottom:4%;
+    }
+    .cc{
+        padding-bottom:1%;
+    }
 }
 `;
 

@@ -26,14 +26,30 @@ const VideoGallery = props => {
         }
 
     }
-    const { photo, url, description,name } = opinionItem;
+    const { photo, url, description, name } = opinionItem;
 
     return (
-        <VideoGalleryStyle >
+        <VideoGalleryStyle photo={photo}>
             <div className="global">
                 <div className="column1">
-                    <FontA size="16px" className="play" color="white"href={url}>{text9}</FontA>
-                    <img src={photo} />       
+                    <div className="photo">
+                        <div></div>
+                        <FontA size="16px" className="play" color="white" href={url}>{text9}</FontA>
+                    </div>
+                
+                    <div className="mobile">
+                    <div className="mobileTitle">
+                        <Fonth2 color="white"> {title10}</Fonth2>
+                    </div>
+                    <div className="mobileText">
+                        <FontP color="white">{description}</FontP>
+                        <Fonth2 color="white">{name}</Fonth2>
+                        <div className="buttonDiv">
+                            <div className={`${tab === 0 && 'active'}`} onClick={() => changeTab(0)}></div>
+                            <div className={`${tab === 1 && 'active'}`} onClick={() => changeTab(1)}></div>
+                        </div>
+                    </div>
+                </div>
                 </div>
                 <div className="title">
                     <Fonth2 color="white"> {title10}</Fonth2>
@@ -48,6 +64,8 @@ const VideoGallery = props => {
                         </div>
                     </div>
                 </div>
+                
+
             </div>
         </VideoGalleryStyle>
     );

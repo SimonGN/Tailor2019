@@ -31,6 +31,15 @@ const TextPhoto = props => {
                 <div className="colum1" >
                     <img src={img3} />
                 </div>
+                <div className="mobile">
+                    <div className="mobileTitle">
+                        <Fonth2> {title4}</Fonth2>
+                    </div>
+                    <div className="mobileText">
+                        <Fonth1> {text5}</Fonth1>
+                        <FontP> {text6}</FontP>
+                    </div>
+                </div>
             </div>
         </TextPhotoStyle>
     );

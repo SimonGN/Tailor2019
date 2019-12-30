@@ -20,14 +20,41 @@ const WorkGalleryStyle = styled.div`
       position: relative;
       display:flex;
       align-items: center;
-  
+    }
+    .mobile{
+      display:flex;
+      align-items: center;
+      margin-bottom:5%;
+    }
+    .mobileTitle{
+            width:13%;
+            white-space: nowrap;
+            writing-mode: vertical-lr;
+            transform: rotate(180deg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    }
+    .mobileText{
+      width:80%;
+    }
+    .text, .title{
+      display:none;
     }
     .info{
       position: absolute;
-      /* display:flex; */
     }
     .infoText{
       filter: blur(0px);
+    }
+    .buttons{
+      display:grid;
+      grid-template-columns: repeat(2, 1fr);
+      white-space: pre;
+      a{
+        width:90%;
+        margin:0 auto;
+      }
     }
     .buttonDiv{
         display:flex;
@@ -55,10 +82,11 @@ const WorkGalleryStyle = styled.div`
 
     
     
-    @media only screen and (min-width:415px) and (max-width:768px){
-        
-    }
-    @media only screen and (min-width:769px) {
+    @media only screen and (min-width:415px){
+  
+      .mobile{
+        display:none;
+      }
         min-height:800px;
         h1{
             margin-bottom:2.5%;
@@ -82,7 +110,9 @@ const WorkGalleryStyle = styled.div`
           margin:0 auto;
           display:flex;
         }
-
+        .title, .text{
+          display:block;
+        }
         .title{
             width:20%;
             white-space: nowrap;
@@ -91,6 +121,7 @@ const WorkGalleryStyle = styled.div`
             display: flex;
             align-items: center;
             justify-content: center;
+            
         }
         .text, .buttons{
             width: 40%;

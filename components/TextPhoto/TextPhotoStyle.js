@@ -3,6 +3,15 @@ import styled from 'styled-components';
 
 const TextPhotoStyle = styled.div`
     background-color:#DAE1FF;
+    .global{
+        display:flex;
+        flex-flow:column;
+    }
+    .mobile{
+        margin-top:10%;
+        margin-bottom:15%;
+        display:flex;
+    }
     img{
         width:100%;
         object-fit:cover;
@@ -10,25 +19,38 @@ const TextPhotoStyle = styled.div`
     .text{
         display: flex;
         flex-direction: column;
+        display:none;
     }
     .title{
+        display:none;
+    }
+    .mobileTitle{
         display: flex;
         align-items: center;
         justify-content: center;
         white-space: nowrap;
         writing-mode: vertical-lr;
         transform: rotate(180deg);
+        width:13%;
     }
-    .global{
-        display:flex;
+    .mobileText{
+        width:80%;
     }
-
-    
-    
     @media only screen and (min-width:415px) and (max-width:768px){
-        
+        .mobileTitle{
+            width:22%;
+        }
+        .mobileText{
+            width:65%;
+        }
     }
     @media only screen and (min-width:769px) {
+        .mobile{
+            display:none;
+        }
+        .global{
+            flex-flow:row;
+        }
         h1{
             margin-bottom:2.5%;
         }
@@ -40,6 +62,9 @@ const TextPhotoStyle = styled.div`
         }
         .title{
             width:8%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             white-space: nowrap;
             writing-mode: vertical-lr;
             transform: rotate(180deg);
@@ -49,6 +74,7 @@ const TextPhotoStyle = styled.div`
             width: 80%;
             height: 95vh;
             justify-content: center;
+            display:flex;
         }
 
     }

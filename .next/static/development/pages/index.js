@@ -58,7 +58,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    padding:14px 25px;\n    display: flex;    \n    \n    border-radius: 25px;\n    border: 1px solid #0F1C51;\n    display:flex;\n    justify-content: center;\n    cursor:pointer;\n    width: 40%;\n\n\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    padding:14px 25px;\n    display: flex;    \n    width: auto;\n    border-radius: 25px;\n    border: 1px solid #0F1C51;\n    display:flex;\n    justify-content: center;\n    cursor:pointer;\n    width: auto;\n\n\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -206,7 +206,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\nbackground-color: #0F1C51;\npadding-top:9%;\na{\n    text-decoration:none;\n}\n.img, .contact, .direction, .cc{\n    margin:0 auto;\n    display:flex;\n    justify-content:center;\n    align-items:center;\n}\n.contact, .direction{\n    margin-bottom:2%;\n}\n.img{\n    width: 5%;\n    \n    img{\n        width:100%;\n    }\n}\n.contact{\n    display:flex;\n    flex-direction:column;\n}\n.img,.direction{\n    margin-bottom:4%;\n}\n.cc{\n    padding-bottom:1%;\n}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\nbackground-color: #0F1C51;\npadding-top:85%;\na{\n    text-decoration:none;\n}\n.img, .contact, .direction, .cc{\n    margin:0 auto;\n    display:flex;\n    justify-content:center;\n    align-items:center;\n}\n\n.img{\n    width: 15%;\n    img{\n        width:100%;\n    }\n} \n.img,.direction,.contact{\n        margin-bottom:10%;\n    } \n.contact{\n    display:flex;\n    flex-direction:column; \n}\n.cc{\n    padding-bottom:5%;\n    width: 95%;\n    margin: 0 auto;\n}\n\n@media only screen and (min-width:769px) {\n    padding-top:35%;\n    .contact, .direction{\n        margin-bottom:2%;\n    }\n    .img{\n        width: 5%;\n    }   \n    .img,.direction{\n        margin-bottom:4%;\n    }\n    .cc{\n        padding-bottom:1%;\n    }\n}\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -260,84 +260,158 @@ var IpadText = function IpadText(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_IpadTextStyle__WEBPACK_IMPORTED_MODULE_2__["IpadTextStyle"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 18
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "global",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 19
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "colum1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: img2,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 21
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 23
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 24
     },
     __self: this
   }, " ", title2)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "colum1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 26
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 27
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "paragraph",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 28
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_Fonth1__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 29
     },
     __self: this
   }, " ", text3), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 30
     },
     __self: this
-  }, " ", text4)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, " ", text4)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "button",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
     content: button,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 33
     },
     __self: this
-  })))));
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mobile",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mobileTitle",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, " ", title2)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "colum1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mobileText",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "paragraph",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, " ", text3), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, " ", text4)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mobileButton",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    content: button,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  })))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (IpadText);
@@ -359,7 +433,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    img{\n        width:100%;\n        object-fit:cover;\n    }\n    .text{\n        display: flex;\n        flex-direction: column;\n    }\n    .title{\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        white-space: nowrap;\n        writing-mode: vertical-lr;\n        transform: rotate(180deg);\n    }\n    .global{\n        display:flex;\n    }\n\n    \n    \n    @media only screen and (min-width:415px) and (max-width:768px){\n        \n    }\n    @media only screen and (min-width:769px) {\n        h1{\n            margin-bottom:2.5%;\n        }\n        .colum1, .colum2{\n            width:46%\n        }\n        .colum1{\n            position:relative;\n        }\n        img{\n            position:absolute;\n            height: 90vh;\n            width: auto;\n            top: 16%;\n            right: -6%;\n        }\n        .title{\n            width:8%;\n            white-space: nowrap;\n            writing-mode: vertical-lr;\n            transform: rotate(180deg);\n        }\n        .text{\n            width: 80%;\n            min-height: 100vh;\n            justify-content: center;\n        }\n        .paragraph{\n            margin-bottom:5%;\n        }\n\n    }\n\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    .global{\n        display:flex;\n        flex-flow:column;\n    }\n    .colum1{\n        margin: 0 auto;\n        width: 100%;\n    }\n    img{\n        width: 100%;\n        object-fit: cover;\n        margin-left: -7%;\n        margin-top: 15%;\n    }\n    .text{\n        display: flex;\n        flex-direction: column;\n        display:none;\n    }\n    .title{\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        white-space: nowrap;\n        writing-mode: vertical-lr;\n        transform: rotate(180deg);\n        display:none;\n    }\n\n    .mobile{\n        display:flex;\n        margin-top: -10%;\n    }\n    .mobileTitle{\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        white-space: nowrap;\n        writing-mode: vertical-lr;\n        transform: rotate(180deg); \n        width:15%;\n    }\n    .mobileText{\n        width:90%;\n    }\n    .mobileButton{\n        width: 50%;\n        margin-top: 10%;\n    }\n\n    \n    @media only screen and (min-width:769px) {\n        .global{\n            flex-flow:row;\n        }\n        .mobile{\n            display:none;\n        }\n        h1{\n            margin-bottom:2.5%;\n        }\n        .colum1, .colum2{\n            width:46%\n        }\n        .colum1{\n            position:relative;\n        }\n        img{\n            position:absolute;\n            height: 90vh;\n            width: auto;\n            top: 9%;\n            right: -6%;\n        }\n        .title, .text{\n            display:block;\n        }\n        .button{\n            width:50%;\n        }\n        .title{\n            width:8%;\n            display:flex;\n            white-space: nowrap;\n            align-items:center;\n        }\n        .text{\n            flex-flow: row;\n            width: 80%;\n            min-height: 100vh;\n            display: flex;\n            flex-flow: column;\n            justify-content:center;\n        }\n        .paragraph{\n            margin-bottom:5%;\n        }\n\n    }\n\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -674,48 +748,102 @@ var PhotoTeam = function PhotoTeam(props) {
       lineNumber: 28
     },
     __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "hiring",
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mobile",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mobileTitle",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32
+    },
+    __self: this
+  }, " ", title)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mobileColum2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Team__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "hiring",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
     },
     __self: this
   }, " ", title8), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "elementHiring",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 41
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "buttonHiring",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button_Button__WEBPACK_IMPORTED_MODULE_6__["default"], {
     content: hiring1,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 43
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button_Button__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "buttonHiring",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button_Button__WEBPACK_IMPORTED_MODULE_6__["default"], {
     content: hiring2,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 46
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button_Button__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "buttonHiring",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button_Button__WEBPACK_IMPORTED_MODULE_6__["default"], {
     content: hiring3,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 49
     },
     __self: this
-  }))));
+  })))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (PhotoTeam);
@@ -737,7 +865,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\nbackground-color:#DAE1FF;\n    img{\n        width:100%;\n        object-fit:cover;\n    }\n    .text{\n        display: flex;\n        flex-direction: column;\n    }\n    .title{\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        white-space: nowrap;\n        writing-mode: vertical-lr;\n        transform: rotate(180deg);\n    }\n    .global{\n        display:flex;\n    }\n\n    \n    \n    @media only screen and (min-width:415px) and (max-width:768px){\n        \n    }\n    @media only screen and (min-width:769px) {\n        h1{\n            margin-bottom:2.5%;\n        }\n        .colum1, .colum2{\n            width:46%\n        }\n        img{\n            height:auto;\n        }\n        .title{\n            width:8%;\n            white-space: nowrap;\n            writing-mode: vertical-lr;\n            transform: rotate(180deg);\n            top: 0%;\n            padding-top: 20%;\n        }\n        .team-container{\n            width: 80%;\n            height: auto;\n            position: -webkit-sticky;\n            position: sticky;\n            top: 0%;\n            padding-top: 33%;\n            padding-bottom: 33%;\n\n        }\n        .personTeam{\n            & > a{\n                margin-bottom:5%;\n            }\n            & > p{\n                margin-bottom: 5%;\n            }\n            \n        }\n        .hiring{\n            width:30%;\n            margin-left:10%;\n            margin-top:10%;\n            padding-bottom:10%;\n            & >p{\n                margin-bottom:5%;\n            }\n        }\n        .elementHiring{\n            display:grid;\n            grid-template-columns: repeat(3, 1fr);\n            white-space: pre;\n\n            div{\n                width: 90%;\n\n            }\n        }\n        \n    }\n\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\nbackground-color:#DAE1FF;\n    img{\n        width:100%;\n        object-fit:cover;\n    }\n    .colum1{\n        position: relative;\n        width:100%;\n    }\n    .text{\n        display: flex;\n        flex-direction: column;\n    }\n    .title{\n\n        display:none;\n    }\n    .colum2{\n        display:none;\n    }\n    .global{\n        display:flex;\n    }\n    .mobile{\n        position: absolute;\n        width:100%;\n        display: flex;\n        margin-top:10%;\n        margin-bottom:15%;\n    }\n    .mobileTitle{\n        display:flex;\n        white-space: nowrap;\n        align-items: center;\n        justify-content: center;\n        writing-mode: vertical-lr;\n        transform: rotate(180deg);\n        width:13%;\n    }\n    .mobileColum2{\n        width:90%;\n    }\n    .team-container{\n        position: -webkit-sticky;\n        position: sticky;\n    }\n\n    .personTeam{\n            & > a{\n                margin-bottom:5%;\n            }\n            & > p{\n                margin-bottom: 5%;\n            }\n    }\n    .hiring{\n        margin: 0 auto;\n        padding-bottom:15%;\n        margin-top:10%;\n        width:90%;\n        \n    }\n    .elementHiring{\n            display:grid;\n            grid-template-columns: repeat(2, 1fr);\n            white-space: pre;\n            div{\n                width: 90%;\n                margin-top:5%;\n            }\n        }\n\n    \n    \n    @media only screen and (min-width:415px) and (max-width:768px){\n        .mobileTitle{\n            width:27%; \n        }\n        .elementHiring{\n            grid-template-columns: repeat(3, 1fr);\n            }\n\n    }\n    @media only screen and (min-width:769px) {\n        .mobile{\n            display:none;\n        }\n        h1{\n            margin-bottom:2.5%;\n        }\n        .colum1, .colum2{\n            width:46%\n        }\n        img{\n            height:auto;\n        }\n        .title{\n            width:8%;\n            display:flex;\n            white-space: nowrap;\n            align-items: center;\n            justify-content: center;\n            writing-mode: vertical-lr;\n            transform: rotate(180deg);\n            top: 0%;\n            padding-top: 20%;\n        }\n        .colum2{\n            display:block;\n        }\n        .team-container{\n            width: 80%;\n            height: auto;\n            position: -webkit-sticky;\n            position: sticky;\n            top: 0%;\n            padding-top: 33%;\n            padding-bottom: 33%;\n\n        }\n        .hiring{\n            width:30%;\n            margin-left:10%;\n            margin-top:10%;\n            padding-bottom:10%;\n            & >p{\n                margin-bottom:5%;\n            }\n        }\n        .elementHiring{\n            grid-template-columns: repeat(3, 1fr);\n            div{\n                width: 90%;\n\n            }\n        }\n        \n    }\n\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -921,7 +1049,53 @@ var PhotoText = function PhotoText(props) {
       lineNumber: 26
     },
     __self: this
-  }, " ", text2)))));
+  }, " ", text2))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mobile",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mobileTitle",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, " ", title)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "colum1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mobileText",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_Fonth1__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, " ", text1), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, " ", text2))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (PhotoText);
@@ -943,7 +1117,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    img{\n        width:100%;\n        object-fit:cover;\n    }\n    .text{\n        display: flex;\n        flex-direction: column;\n    }\n    .title{\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        white-space: nowrap;\n        writing-mode: vertical-lr;\n        transform: rotate(180deg);\n    }\n    .global{\n        display:flex;\n    }\n\n    \n    \n    @media only screen and (min-width:415px) and (max-width:768px){\n        \n    }\n    @media only screen and (min-width:769px) {\n        h1{\n            margin-bottom:2.5%;\n        }\n        .colum1, .colum2{\n            width:46%\n        }\n        img{\n            height:90vh;\n        }\n        .title{\n            width:8%;\n            white-space: nowrap;\n            writing-mode: vertical-lr;\n            transform: rotate(180deg);\n        }\n        .text{\n            width: 80%;\n            min-height: 90vh;\n\n            justify-content: center;\n        }\n\n    }\n\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    .global{\n        display:flex;\n        flex-flow:column;\n    }\n    img{\n        width:100%;\n        object-fit:cover;\n    }\n    .text, .title{\n        display: flex;\n        flex-direction: column;\n        display:none;\n    }\n    .mobile{\n        display:flex;\n        margin-top:10%;\n        margin-bottom:15%;\n    }\n    .mobileTitle{\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        white-space: nowrap;\n        writing-mode: vertical-lr;\n        transform: rotate(180deg);\n        width:30%;\n    }\n    .mobileText{\n        width:95%;\n    }\n\n    .global{\n        display:flex;\n    }\n\n    \n    @media only screen and (min-width:769px) {\n        .global{\n            flex-flow:row;\n        }\n        h1{\n            margin-bottom:2.5%;\n        }\n        .colum1, .colum2{\n            width:46%\n        }\n        img{\n            height:90vh;\n        }\n        .text, .title{\n            display:block;\n            display:flex;\n            flex-flow:column;\n        }\n        .mobile{\n            display:none;\n        }\n        .title{\n            width:8%;\n            white-space: nowrap;\n            writing-mode: vertical-lr;\n            transform: rotate(180deg);\n            display: flex;\n            align-items: center;\n            justify-content: center;\n        }\n        .text{\n            width: 80%;\n            min-height: 90vh;\n            justify-content: center;\n        }\n\n    }\n\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -1068,7 +1242,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    display: flex;\n    align-items: center;\n    overflow-x: hidden;\n\n    /* width:100vw; */\n    height: 100vh;\n    @-webkit-keyframes drift{\n    0% {\n        -webkit-transform:translateX(0);\n        transform:translateX(0);\n    }\n    to{\n        -webkit-transform:translateX(-100%);\n        transform:translateX(-100%);\n    }\n    }\n    @keyframes drift{\n    0%\n    {\n        -webkit-transform:translateX(0);\n        transform:translateX(0);\n    }\n    to{\n        -webkit-transform:translateX(-100%);\n        transform:translateX(-100%);\n    }\n    }\n    .svg {\n        width:1800vw;\n        -webkit-animation:drift 200s linear infinite alternate;\n        animation:drift 200s linear infinite alternate;\n    }\n    h2{\n        width: 100vw;\n        display: flex;\n        align-items: center;\n    }\n\n    .global{\n        /* width: 100vw; */\n        height: 100vh;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n    }\n\n    .title{\n        writing-mode: vertical-rl;\n        transform: rotate(180deg);\n        z-index: 1;\n    }\n    @media only screen and (min-width:769px){\n        .scroll1, .scroll2, .scroll3.scroll3, .scroll4{\n            width: 92%;\n            margin-bottom: 0.05%;\n        }\n        \n    } \n\n    \n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    display: flex;\n    align-items: center;\n    overflow-x: hidden;\n\n    /* width:100vw; */\n    @-webkit-keyframes drift{\n    0% {\n        -webkit-transform:translateX(0);\n        transform:translateX(0);\n    }\n    to{\n        -webkit-transform:translateX(-100%);\n        transform:translateX(-100%);\n    }\n    }\n    @keyframes drift{\n    0%\n    {\n        -webkit-transform:translateX(0);\n        transform:translateX(0);\n    }\n    to{\n        -webkit-transform:translateX(-100%);\n        transform:translateX(-100%);\n    }\n    }\n    .svg {\n        width:1800vw;\n        -webkit-animation:drift 200s linear infinite alternate;\n        animation:drift 200s linear infinite alternate;\n    }\n    h2{\n        width: 100vw;\n        display: flex;\n        align-items: center;\n    }\n\n    .global{\n        /* width: 100vw; */\n        height: 50vh;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n    }\n\n    .title{\n        writing-mode: vertical-rl;\n        transform: rotate(180deg);\n        z-index: 1;\n    }\n    @media only screen and (min-width:769px){\n        .title{\n            margin-top: -5%;\n        }\n        .global{\n            height: 90vh;\n            margin-top: -5%;\n\n        }\n        .scroll1, .scroll2, .scroll3.scroll3, .scroll4{\n            width: 88%;\n            margin-bottom: 0.05%;\n        }\n        \n    } \n\n    \n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -1182,7 +1356,46 @@ var TextPhoto = function TextPhoto(props) {
       lineNumber: 32
     },
     __self: this
-  }))));
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mobile",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mobileTitle",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, " ", title4)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mobileText",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_Fonth1__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, " ", text5), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, " ", text6)))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (TextPhoto);
@@ -1204,7 +1417,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    background-color:#DAE1FF;\n    img{\n        width:100%;\n        object-fit:cover;\n    }\n    .text{\n        display: flex;\n        flex-direction: column;\n    }\n    .title{\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        white-space: nowrap;\n        writing-mode: vertical-lr;\n        transform: rotate(180deg);\n    }\n    .global{\n        display:flex;\n    }\n\n    \n    \n    @media only screen and (min-width:415px) and (max-width:768px){\n        \n    }\n    @media only screen and (min-width:769px) {\n        h1{\n            margin-bottom:2.5%;\n        }\n        .colum1, .colum2{\n            width:46%\n        }\n        img{\n            height:100vh;\n        }\n        .title{\n            width:8%;\n            white-space: nowrap;\n            writing-mode: vertical-lr;\n            transform: rotate(180deg);\n        }\n        .text{\n            float: right;\n            width: 80%;\n            height: 95vh;\n            justify-content: center;\n        }\n\n    }\n\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    background-color:#DAE1FF;\n    .global{\n        display:flex;\n        flex-flow:column;\n    }\n    .mobile{\n        margin-top:10%;\n        margin-bottom:15%;\n        display:flex;\n    }\n    img{\n        width:100%;\n        object-fit:cover;\n    }\n    .text{\n        display: flex;\n        flex-direction: column;\n        display:none;\n    }\n    .title{\n        display:none;\n    }\n    .mobileTitle{\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        white-space: nowrap;\n        writing-mode: vertical-lr;\n        transform: rotate(180deg);\n        width:13%;\n    }\n    .mobileText{\n        width:80%;\n    }\n    @media only screen and (min-width:415px) and (max-width:768px){\n        .mobileTitle{\n            width:22%;\n        }\n        .mobileText{\n            width:65%;\n        }\n    }\n    @media only screen and (min-width:769px) {\n        .mobile{\n            display:none;\n        }\n        .global{\n            flex-flow:row;\n        }\n        h1{\n            margin-bottom:2.5%;\n        }\n        .colum1, .colum2{\n            width:46%\n        }\n        img{\n            height:100vh;\n        }\n        .title{\n            width:8%;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            white-space: nowrap;\n            writing-mode: vertical-lr;\n            transform: rotate(180deg);\n        }\n        .text{\n            float: right;\n            width: 80%;\n            height: 95vh;\n            justify-content: center;\n            display:flex;\n        }\n\n    }\n\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -1282,6 +1495,7 @@ var VideoGallery = function VideoGallery(props) {
       description = opinionItem.description,
       name = opinionItem.name;
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_VideoGalleryStyle__WEBPACK_IMPORTED_MODULE_3__["VideoGalleryStyle"], {
+    photo: photo,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32
@@ -1301,70 +1515,76 @@ var VideoGallery = function VideoGallery(props) {
       lineNumber: 34
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fonta__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "photo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fonta__WEBPACK_IMPORTED_MODULE_4__["default"], {
     size: "16px",
     className: "play",
     color: "white",
     href: url,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 37
     },
     __self: this
-  }, text9), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: photo,
+  }, text9)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "mobile",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 40
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "title",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "mobileTitle",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 41
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_6__["default"], {
     color: "white",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 42
     },
     __self: this
   }, " ", title10)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "colum1",
+    className: "mobileText",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "text",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 44
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_5__["default"], {
     color: "white",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 45
     },
     __self: this
   }, description), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_6__["default"], {
     color: "white",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 46
     },
     __self: this
   }, name), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "buttonDiv",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 47
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -1374,7 +1594,7 @@ var VideoGallery = function VideoGallery(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 48
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -1384,7 +1604,76 @@ var VideoGallery = function VideoGallery(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 49
+    },
+    __self: this
+  }))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    color: "white",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }, " ", title10)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "colum1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    color: "white",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, description), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    color: "white",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }, name), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "buttonDiv",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "".concat(tab === 0 && 'active'),
+    onClick: function onClick() {
+      return changeTab(0);
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "".concat(tab === 1 && 'active'),
+    onClick: function onClick() {
+      return changeTab(1);
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
     },
     __self: this
   }))))));
@@ -1409,7 +1698,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\nbackground-color: #0F1C51;\n/* .colum1{\n    width:100%;\n    height:500px;\n    backdrop-filter: url(", "#filter) blur(4px);\n    -webkit-backdrop-filter: blur(10px);\n} */\n    img{\n        width:100%;\n        object-fit:cover;\n        position:relative;\n        opacity:50%;\n        /* backdrop-filter: url(filters.svg#filter) blur(4px); */\n        backdrop-filter: blur(10px);\n        -webkit-backdrop-filter: blur(10px);\n       \n    }\n    .play{ \n        width:50%;\n        height:100%;\n        position:absolute;\n        z-index:1;\n        display: flex;\n        align-items: center;\n        justify-content:center;\n        cursor:pointer;\n    }\n    .text{\n        display: flex;\n        flex-direction: column;\n        & > p{\n            margin-bottom:5%;\n        }\n    }\n    .title{\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        white-space: nowrap;\n        writing-mode: vertical-lr;\n        transform: rotate(180deg);\n    }\n    .global{\n        display:flex;\n    }\n    .buttonDiv{\n        display:flex;\n        justify-content:center;\n        margin-top:10%;\n        div{\n            width: 15px;\n            height: 15px;\n            -moz-border-radius: 50%;\n            -webkit-border-radius: 50%;\n            border-radius: 50%;\n            background: transparent;\n            border: 1px solid white;\n            margin-left:2%;\n            cursor:pointer;\n        }\n        div:first-child{\n            margin-left:0;\n        }\n        div.active {\n            background-color:white;\n        }\n    }\n\n\n    \n    \n    @media only screen and (min-width:415px) and (max-width:768px){\n        \n    }\n    @media only screen and (min-width:769px) {\n        h1{\n            margin-bottom:2.5%;\n        }\n        .colum1, .colum2{\n            width:46%\n        }\n        .photo{\n            width:100%;\n\n        }\n        img{\n            min-height:80vh;\n\n        }\n        .title{\n            width:8%;\n            white-space: nowrap;\n            writing-mode: vertical-lr;\n            transform: rotate(180deg);\n        }\n        .text{\n            width: 80%;\n            min-height: 100%;\n            justify-content: center;\n        }\n        .play{\n            width: 50.6%;\n    height: 103%;\n        }\n\n    }\n\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    background-color: #0F1C51;\n    width: 100%;\n    max-height: 507px;\n    .global{\n        display:flex;\n        flex-flow:column;\n    }\n    .colum1{\n        position: relative;\n    }\n    .photo{\n        width:100vw;\n        min-height:600px;\n        background-repeat: no-repeat;\n        background-size: cover;\n        background-position: center;\n        background-color: ", ";\n        background-image: ", ";\n        position: relative;\n        & > div{\n            width: 100vw;\n            min-height:600px;\n            background-color: #0F1C5130;\n            backdrop-filter: blur(10px);\n            -webkit-backdrop-filter: blur(10px);\n            \n        }\n    }\n    .mobile{\n        display:flex;\n        position: absolute;\n        background-color: #0F1C51;\n        padding-top:5%;\n        padding-bottom:5%;\n    }\n    img{\n        width:100%;\n        object-fit:cover;\n        position:relative;\n        opacity:50%;\n        backdrop-filter: blur(10px);\n        -webkit-backdrop-filter: blur(10px);\n    }\n\n    .mobileTitle{\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        white-space: nowrap;\n        writing-mode: vertical-lr;\n        transform: rotate(180deg);\n        width:13%;\n    }\n    .mobileText{\n        width:80%;\n        & > p{\n            margin-bottom:5%;\n        }\n    }\n    .play{ \n        top:10%;\n        width:100%;\n        height:80%;\n        position:absolute;\n        z-index:1;\n        display: flex;\n        align-items: center;\n        justify-content:center;\n        cursor:pointer;\n        position: absolute;\n    }\n    .text{\n        display: flex;\n        flex-direction: column;\n        display:none;\n        & > p{\n            margin-bottom:5%;\n        }\n    }\n    .title{\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        white-space: nowrap;\n        writing-mode: vertical-lr;\n        transform: rotate(180deg);\n        display:none;\n    }\n    .global{\n        display:flex;\n    }\n    .buttonDiv{\n        display:flex;\n        justify-content:center;\n        margin-top:10%;\n        div{\n            width: 15px;\n            height: 15px;\n            -moz-border-radius: 50%;\n            -webkit-border-radius: 50%;\n            border-radius: 50%;\n            background: transparent;\n            border: 1px solid white;\n            margin-left:10px;\n            cursor:pointer;\n        }\n        div:first-child{\n            margin-left:0;\n        }\n        div.active {\n            background-color:white;\n        }\n    }\n    @media only screen and (min-width:415px) and (max-width:768px){\n        \n    }\n    @media only screen and (min-width:769px) {\n        .global{\n            flex-flow:row;\n            align-items:center;\n        }\n        .mobile{\n            display:none;\n        }\n        .title, .text{\n            display:block;\n        }\n        h1{\n            margin-bottom:2.5%;\n        }\n        .colum1, .colum2{\n            width:46%\n        }\n        .title{\n            display:flex;\n            align-items:center;\n            width:8%;\n            white-space: nowrap;\n            writing-mode: vertical-lr;\n            transform: rotate(180deg);\n        }\n        .photo{\n            width:46vw;\n            & > div{\n                width:46vw\n            }\n            \n        }\n        .text{\n            width: 80%;\n            min-height: 100%;\n            justify-content: center;\n        }\n        .play{\n            top:20%;\n        }\n\n    }\n\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -1420,6 +1709,8 @@ function _templateObject() {
 
 
 var VideoGalleryStyle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject(), function (props) {
+  return props.photo ? '' : '#0F1C51';
+}, function (props) {
   return props.photo ? "url(".concat(props.photo, ")") : '';
 });
 
@@ -1445,13 +1736,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../styles/fontsStyles/fontP */ "./styles/fontsStyles/fontP.js");
 /* harmony import */ var _styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../styles/fontsStyles/Fonth2 */ "./styles/fontsStyles/Fonth2.js");
 /* harmony import */ var _Button_Button__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../Button/Button */ "./components/Button/Button.js");
-/* harmony import */ var _content_home_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../content/home.json */ "./content/home.json");
-var _content_home_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../content/home.json */ "./content/home.json", 1);
-/* harmony import */ var _content_project_json__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../content/project.json */ "./content/project.json");
-var _content_project_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../content/project.json */ "./content/project.json", 1);
+/* harmony import */ var _content_project_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../content/project.json */ "./content/project.json");
+var _content_project_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../content/project.json */ "./content/project.json", 1);
 
 var _jsxFileName = "/Users/simongnegrete/Desktop/Tailor/Tailor2019/components/WorkGallery/WorkGallery.js";
-
 
 
 
@@ -1468,13 +1756,13 @@ var WorkGallery = function WorkGallery(props) {
       tab = _useState2[0],
       setTab = _useState2[1];
 
-  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(_content_project_json__WEBPACK_IMPORTED_MODULE_9__[0]),
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(_content_project_json__WEBPACK_IMPORTED_MODULE_8__[0]),
       _useState4 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState3, 2),
       projectItem = _useState4[0],
       setProjectItems = _useState4[1];
 
   var changeItem = function changeItem(number) {
-    setProjectItems(_content_project_json__WEBPACK_IMPORTED_MODULE_9__[number]);
+    setProjectItems(_content_project_json__WEBPACK_IMPORTED_MODULE_8__[number]);
   };
 
   var changeTab = function changeTab(number) {
@@ -1495,28 +1783,52 @@ var WorkGallery = function WorkGallery(props) {
     img: img,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 34
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "background",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 35
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "info",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 36
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "infoText",
+    className: "mobile",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    className: "mobileTitle",
+    color: "white",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38
+    },
+    __self: this
+  }, client), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    className: "mobileText",
+    size: "15px",
+    color: "white",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, description)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "infoText",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -1525,7 +1837,7 @@ var WorkGallery = function WorkGallery(props) {
     color: "white",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 42
     },
     __self: this
   }, description), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_Fonth2__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -1533,14 +1845,14 @@ var WorkGallery = function WorkGallery(props) {
     color: "white",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 43
     },
     __self: this
   }, client), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "buttons",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 44
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
@@ -1549,14 +1861,14 @@ var WorkGallery = function WorkGallery(props) {
     href: url,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 45
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Button_Button__WEBPACK_IMPORTED_MODULE_7__["default"], {
     content: name,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 45
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
@@ -1565,21 +1877,21 @@ var WorkGallery = function WorkGallery(props) {
     href: url,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 46
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Button_Button__WEBPACK_IMPORTED_MODULE_7__["default"], {
     content: name,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 46
     },
     __self: this
   })))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "buttonDiv",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 50
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -1589,7 +1901,7 @@ var WorkGallery = function WorkGallery(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 51
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -1599,7 +1911,7 @@ var WorkGallery = function WorkGallery(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 52
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -1609,7 +1921,7 @@ var WorkGallery = function WorkGallery(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 53
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -1619,7 +1931,7 @@ var WorkGallery = function WorkGallery(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 54
     },
     __self: this
   })))));
@@ -1644,7 +1956,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    width:100%;\n    min-height:700px;\n    background-repeat: no-repeat;\n    background-size: cover;\n    background-position: center;\n    background-color: ", ";\n    background-image: ", ";\n    display: flex;\n    align-items: flex-end;\n    .background{\n      width:100%;\n      min-height:250px;\n      background-color:#0F1C5150;\n      -webkit-backdrop-filter: blur(50px);\n      backdrop-filter: blur(100px);\n      position: relative;\n      display:flex;\n      align-items: center;\n  \n    }\n    .info{\n      position: absolute;\n      /* display:flex; */\n    }\n    .infoText{\n      filter: blur(0px);\n    }\n    .buttonDiv{\n        display:flex;\n        justify-content:center;\n        margin-top:5%;\n        div{\n            width: 15px;\n            height: 15px;\n            -moz-border-radius: 50%;\n            -webkit-border-radius: 50%;\n            border-radius: 50%;\n            background: transparent;\n            border: 1px solid white;\n            margin-left:2%;\n            cursor:pointer;\n        }\n        div:first-child{\n            margin-left:0;\n        }\n        div.active {\n            background-color:white;\n        }\n    }\n\n\n    \n    \n    @media only screen and (min-width:415px) and (max-width:768px){\n        \n    }\n    @media only screen and (min-width:769px) {\n        min-height:800px;\n        h1{\n            margin-bottom:2.5%;\n        }\n        .colum1, .colum2{\n            width:46%\n        }\n        .photo{\n            width:100%;\n\n        }\n        img{\n            min-height:80vh;\n\n        }\n        .background{\n          min-height:250px;\n        }\n        .infoText{\n          width:80%;\n          margin:0 auto;\n          display:flex;\n        }\n\n        .title{\n            width:20%;\n            white-space: nowrap;\n            writing-mode: vertical-lr;\n            transform: rotate(180deg);\n            display: flex;\n            align-items: center;\n            justify-content: center;\n        }\n        .text, .buttons{\n            width: 40%;\n        }\n        .buttons, .text{\n          display:flex;\n          align-items: center;\n        }\n\n    }\n\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    width:100%;\n    min-height:700px;\n    background-repeat: no-repeat;\n    background-size: cover;\n    background-position: center;\n    background-color: ", ";\n    background-image: ", ";\n    display: flex;\n    align-items: flex-end;\n    .background{\n      width:100%;\n      min-height:250px;\n      background-color:#0F1C5150;\n      -webkit-backdrop-filter: blur(50px);\n      backdrop-filter: blur(100px);\n      position: relative;\n      display:flex;\n      align-items: center;\n    }\n    .mobile{\n      display:flex;\n      align-items: center;\n      margin-bottom:5%;\n    }\n    .mobileTitle{\n            width:13%;\n            white-space: nowrap;\n            writing-mode: vertical-lr;\n            transform: rotate(180deg);\n            display: flex;\n            align-items: center;\n            justify-content: center;\n    }\n    .mobileText{\n      width:80%;\n    }\n    .text, .title{\n      display:none;\n    }\n    .info{\n      position: absolute;\n    }\n    .infoText{\n      filter: blur(0px);\n    }\n    .buttons{\n      display:grid;\n      grid-template-columns: repeat(2, 1fr);\n      white-space: pre;\n      a{\n        width:90%;\n        margin:0 auto;\n      }\n    }\n    .buttonDiv{\n        display:flex;\n        justify-content:center;\n        margin-top:5%;\n        div{\n            width: 15px;\n            height: 15px;\n            -moz-border-radius: 50%;\n            -webkit-border-radius: 50%;\n            border-radius: 50%;\n            background: transparent;\n            border: 1px solid white;\n            margin-left:2%;\n            cursor:pointer;\n        }\n        div:first-child{\n            margin-left:0;\n        }\n        div.active {\n            background-color:white;\n        }\n    }\n\n\n    \n    \n    @media only screen and (min-width:415px){\n  \n      .mobile{\n        display:none;\n      }\n        min-height:800px;\n        h1{\n            margin-bottom:2.5%;\n        }\n        .colum1, .colum2{\n            width:46%\n        }\n        .photo{\n            width:100%;\n\n        }\n        img{\n            min-height:80vh;\n\n        }\n        .background{\n          min-height:250px;\n        }\n        .infoText{\n          width:80%;\n          margin:0 auto;\n          display:flex;\n        }\n        .title, .text{\n          display:block;\n        }\n        .title{\n            width:20%;\n            white-space: nowrap;\n            writing-mode: vertical-lr;\n            transform: rotate(180deg);\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            \n        }\n        .text, .buttons{\n            width: 40%;\n        }\n        .buttons, .text{\n          display:flex;\n          align-items: center;\n        }\n\n    }\n\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -1670,7 +1982,7 @@ var WorkGalleryStyle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"]
 /*! exports provided: img, title, text1, text2, img2, title2, text3, text4, button, title3, img3, title4, text5, text6, img4, title7, title8, hiring1, hiring2, hiring3, title9, title10, text9, logo, email, urlEmail, phone, urlPhone, direction, urlDirection, cc, default */
 /***/ (function(module) {
 
-module.exports = {"img":"static/img/simon-gonzalez-negrete-nunc.jpg","title":"QUÉ ES TAILOR","text1":"Tailor es una boutique digital cuyo objetivo es dar forma a productos o idéas.","text2":"Creamos productos y soluciones digitales para PYMES, startups y grandes empresas.","img2":"static/img/ipad.png","title2":"CÓMO TRABAJAMOS","text3":"Siempre entregamos más de lo que esperas. Y lo hacemos de forma transparente.","text4":"Con un solo clic, podrás seguir el progreso de tu proyecto de forma sencilla e intuitiva.","button":"IR A ESPACIO","title3":"SERVICIOS","img3":"static/img/imgValuesTailor.jpg","title4":"QUIÉNES SOMOS","text5":"Provenimos de carreras de lo más dispares, pero nuestras ganas de acercar el código nos hizo unirnos. Hoy, esos diversos orígenes y talentos nos permiten solucionar infinitos retos digitales.","text6":"Nos apasiona la tecnología. No solo creemos que la tecnología es nuestra forma de ayudarte a tener un impacto real, sino también nuestro camino para dejar nuestra huella en el mundo.","img4":"static/img/teamImg.jpg","title7":"EQUIPO","title8":"Estamos buscando:","hiring1":"UX writer","hiring2":"Full Stack Developer","hiring3":"Back Developer","title9":"Estamos buscando:","title10":"Hablan de nosotros","text9":"PLAY","logo":"static/svg/whiteLogoTailor.svg","email":"hola@tailor-hub.com","urlEmail":"mailto:hola@tailor-hub.com","phone":"+34 644 564 713","urlPhone":"tel:+34 644 564 713","direction":"Esteban Terradas 9 1B, Madrid","urlDirection":"https://www.google.com/maps/dir/40.4692725,-3.6847635/Tailor+hub+28046+Madrid/@40.4692514,-3.7548034,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd42292a2d12ceb7:0x6f3f0ffdcfc127d4!2m2!1d-3.6847635!2d40.4692725","cc":"Copyright © by Tailor hub S.L, 2019. All rights reserved. All materials on this website are intellectual property of Tailor hub S.L."};
+module.exports = {"img":"static/img/imgValuesTailor.jpg","title":"QUÉ ES TAILOR","text1":"Tailor es una boutique digital cuyo objetivo es dar forma a productos o idéas.","text2":"Creamos productos y soluciones digitales para PYMES, startups y grandes empresas.","img2":"static/img/ipad.png","title2":"CÓMO TRABAJAMOS","text3":"Siempre entregamos más de lo que esperas. Y lo hacemos de forma transparente.","text4":"Con un solo clic, podrás seguir el progreso de tu proyecto de forma sencilla e intuitiva.","button":"IR A ESPACIO","title3":"SERVICIOS","img3":"static/img/imgValuesTailor.jpg","title4":"QUIÉNES SOMOS","text5":"Provenimos de carreras de lo más dispares, pero nuestras ganas de acercar el código nos hizo unirnos. Hoy, esos diversos orígenes y talentos nos permiten solucionar infinitos retos digitales.","text6":"Nos apasiona la tecnología. No solo creemos que la tecnología es nuestra forma de ayudarte a tener un impacto real, sino también nuestro camino para dejar nuestra huella en el mundo.","img4":"static/img/teamImg.jpg","title7":"EQUIPO","title8":"Estamos buscando:","hiring1":"UX writer","hiring2":"Full Stack Developer","hiring3":"Back Developer","title9":"Estamos buscando:","title10":"Hablan de nosotros","text9":"PLAY","logo":"static/svg/whiteLogoTailor.svg","email":"hola@tailor-hub.com","urlEmail":"mailto:hola@tailor-hub.com","phone":"+34 644 564 713","urlPhone":"tel:+34 644 564 713","direction":"Esteban Terradas 9 1B, Madrid","urlDirection":"https://www.google.com/maps/dir/40.4692725,-3.6847635/Tailor+hub+28046+Madrid/@40.4692514,-3.7548034,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd42292a2d12ceb7:0x6f3f0ffdcfc127d4!2m2!1d-3.6847635!2d40.4692725","cc":"Copyright © by Tailor hub S.L, 2019. All rights reserved. All materials on this website are intellectual property of Tailor hub S.L."};
 
 /***/ }),
 
@@ -16677,7 +16989,7 @@ var FontA = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a(_templat
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fsimongnegrete%2FDesktop%2FTailor%2FTailor2019%2Fpages%2Findex.js ***!
   \********************************************************************************************************************************************/
@@ -16700,5 +17012,5 @@ module.exports = dll_0b4d667fc966dc93bf48;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
