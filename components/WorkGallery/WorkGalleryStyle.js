@@ -87,7 +87,8 @@ const WorkGalleryStyle = styled.div`
       .mobile{
         display:none;
       }
-        min-height:800px;
+
+        min-height:900px;
         h1{
             margin-bottom:2.5%;
         }
@@ -104,9 +105,14 @@ const WorkGalleryStyle = styled.div`
         }
         .background{
           min-height:250px;
+          display: flex;
+          justify-content: center;
+        }
+
         }
         .infoText{
-          width:80%;
+          width:95%;
+          height: 110px;
           margin:0 auto;
           display:flex;
         }
@@ -126,6 +132,16 @@ const WorkGalleryStyle = styled.div`
         .text, .buttons{
             width: 40%;
         }
+        .buttons{
+          display:grid;
+          grid-template-columns: repeat(2, 1fr);
+          white-space: pre;
+          a{
+            width:45%;
+            margin:0 auto;
+          }
+        }
+
         .buttons, .text{
           display:flex;
           align-items: center;

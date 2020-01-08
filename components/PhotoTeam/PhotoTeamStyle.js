@@ -123,12 +123,12 @@ background-color:#DAE1FF;
 
         }
         .hiring{
-            width:30%;
+            width:50%;
             margin-left:10%;
             margin-top:10%;
             padding-bottom:10%;
             & >p{
-                margin-bottom:5%;
+                margin-bottom:1%;
             }
         }
         .elementHiring{

@@ -73,7 +73,7 @@ const IpadTextStyle = styled.div`
             position:absolute;
             height: 90vh;
             width: auto;
-            top: 9%;
+            top: 5%;
             right: -6%;
         }
         .title, .text{

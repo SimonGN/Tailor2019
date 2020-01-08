@@ -14,7 +14,7 @@ const VideoGalleryStyle = styled.div`
     }
     .photo{
         width:100vw;
-        min-height:600px;
+        min-height:900px;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -23,7 +23,7 @@ const VideoGalleryStyle = styled.div`
         position: relative;
         & > div{
             width: 100vw;
-            min-height:600px;
+            min-height:900px;
             background-color: #0F1C5130;
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
@@ -74,8 +74,7 @@ const VideoGalleryStyle = styled.div`
         position: absolute;
     }
     .text{
-        display: flex;
-        flex-direction: column;
+    
         display:none;
         & > p{
             margin-bottom:5%;
@@ -115,9 +114,6 @@ const VideoGalleryStyle = styled.div`
             background-color:white;
         }
     }
-    @media only screen and (min-width:415px) and (max-width:768px){
-        
-    }
     @media only screen and (min-width:769px) {
         .global{
             flex-flow:row;
@@ -152,11 +148,15 @@ const VideoGalleryStyle = styled.div`
         }
         .text{
             width: 80%;
-            min-height: 100%;
-            justify-content: center;
+            height:250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+            
+
         }
         .play{
-            top:20%;
+            top:10%;
         }
 
     }

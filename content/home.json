@@ -1,5 +1,8 @@
 
     {
+        "claim1":"Creating",
+        "claim2":"meaningful",
+        "claim3":"products",
         "img":"static/img/imgValuesTailor.jpg",
         "title":"QUÉ ES TAILOR",
         "text1":"Tailor es una boutique digital cuyo objetivo es dar forma a productos o idéas.",
@@ -31,7 +34,7 @@
         "text9":"PLAY",
 
 
-        "logo":"static/svg/whiteLogoTailor.svg",
+        "logo":"static/svg/logoTailorWhite.svg",
         "email":"hola@tailor-hub.com",
         "urlEmail":"mailto:hola@tailor-hub.com",
         "phone":"+34 644 564 713",

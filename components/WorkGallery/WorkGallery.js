@@ -42,7 +42,7 @@ const WorkGallery = props => {
                         <FontP className="text" size="15px"color="white">{description}</FontP>
                         <Fonth2 className="title" color="white">{client}</Fonth2>
                         <div className="buttons">
-                            <a target="_blank" rel="nofollow noopener noreferrer" href={url}><Button content={name} /></a>
+                            <a target="_blank" rel="nofollow noopener noreferrer" href={url}><Button className="buttonsOne"content={name} /></a>
                             <a target="_blank" rel="nofollow noopener noreferrer" href={url}><Button content={name} /></a>
                         </div>
                     </div>

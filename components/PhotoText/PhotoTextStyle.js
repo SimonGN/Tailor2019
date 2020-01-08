@@ -2,78 +2,63 @@ import styled from 'styled-components';
 
 
 const PhotoTextStyle = styled.div`
-    .global{
-        display:flex;
-        flex-flow:column;
-    }
-    img{
-        width:100%;
-        object-fit:cover;
-    }
-    .text, .title{
+    width: 96%;
+    margin: 0 auto;
+    /* .cicle{
         display: flex;
-        flex-direction: column;
-        display:none;
-    }
-    .mobile{
-        display:flex;
-        margin-top:10%;
-        margin-bottom:15%;
-    }
-    .mobileTitle{
-        display: flex;
-        align-items: center;
         justify-content: center;
-        white-space: nowrap;
-        writing-mode: vertical-lr;
-        transform: rotate(180deg);
-        width:30%;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background: #0F1C51;
+    } */
+    h2{
+        font-size:68px;
+        line-height: 1;
     }
-    .mobileText{
-        width:95%;
+    .claim{
+        margin-top:30%;
     }
-
-    .global{
-        display:flex;
+    .text{
+        margin-top:20%;
+        margin-bottom:20%;
     }
-
-    
-    @media only screen and (min-width:769px) {
-        .global{
-            flex-flow:row;
-        }
-        h1{
-            margin-bottom:2.5%;
-        }
-        .colum1, .colum2{
-            width:46%
-        }
-        img{
-            height:90vh;
-        }
-        .text, .title{
-            display:block;
-            display:flex;
-            flex-flow:column;
-        }
-        .mobile{
-            display:none;
-        }
-        .title{
-            width:8%;
-            white-space: nowrap;
-            writing-mode: vertical-lr;
-            transform: rotate(180deg);
+    @media only screen and (min-width:415px) and (max-width:768px){
+        .claim{
+            width:90%;
             display: flex;
-            align-items: center;
-            justify-content: center;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            flex-wrap: wrap;
         }
         .text{
-            width: 80%;
-            min-height: 90vh;
-            justify-content: center;
+            width:50%;
+            margin-left: 40%;
+            margin-top: 10%;
         }
-
+    }
+    @media only screen and (min-width:769px) {
+        h2{
+            font-size:150px;
+            line-height: 0.95;
+        }
+        .claim{
+            margin-top:8%;
+            width:77%;
+            display: flex;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .text{
+            width:50%;
+            margin-left: 40%;
+            margin-top: 8%;
+            margin-bottom:10%;
+        }
     }
 
 `;

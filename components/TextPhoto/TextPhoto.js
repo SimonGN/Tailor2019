@@ -20,7 +20,7 @@ const TextPhoto = props => {
             <div className="global" >
                 <div className="colum1">
                     <div className="text">
-                        <Fonth1> {text5}</Fonth1>
+                        <FontP> {text5}</FontP>
                         <FontP> {text6}</FontP>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ const TextPhoto = props => {
                         <Fonth2> {title4}</Fonth2>
                     </div>
                     <div className="mobileText">
-                        <Fonth1> {text5}</Fonth1>
+                        <FontP> {text5}</FontP>
                         <FontP> {text6}</FontP>
                     </div>
                 </div>

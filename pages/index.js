@@ -1,6 +1,6 @@
 import Meta from "../components/Meta";
 
-
+import Nav from "../components/Nav/Nav"
 import PhotoText from "../components/PhotoText/PhotoText"
 import WorkGallery from "../components/WorkGallery/WorkGallery"
 import IpadText from "../components/IpadText/IpadText"
@@ -15,6 +15,7 @@ function Home() {
   
     <React.Fragment>
       <Meta/>
+      <Nav/>
       <PhotoText />
       <WorkGallery />
       <IpadText />
